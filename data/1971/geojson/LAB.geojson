@@ -1,0 +1,541 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "ValueId": 1, "PolyId": 2, "AREA": 5628774388.149762, "PERIMETER": 1170694.240509, "BEDS71#": 2, "BEDS71-ID": 1, "BEDID": "", "DENSITY": 0, "CONTIGBED": "", "QUADID": 0, "CBPSEG": "", "STATE": "", "COUNTY": 0, "ZONE": 0, "BEDLABEL": "", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 328937.592750, 4134886.614198 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 2, "PolyId": 3, "AREA": 205636.171783, "PERIMETER": 10885.856311, "BEDS71#": 3, "BEDS71-ID": 2, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 110, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 364591.976312, 4172303.691869 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 3, "PolyId": 4, "AREA": 3629.482487, "PERIMETER": 277.249498, "BEDS71#": 4, "BEDS71-ID": 3, "BEDID": "LA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 370506.004818, 4173105.743742 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 4, "PolyId": 5, "AREA": 2994.061942, "PERIMETER": 210.695428, "BEDS71#": 5, "BEDS71-ID": 4, "BEDID": "KA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 370873.148453, 4172875.907211 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 5, "PolyId": 6, "AREA": 39377.077817, "PERIMETER": 1623.448069, "BEDS71#": 6, "BEDS71-ID": 5, "BEDID": "JA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 371098.716926, 4172107.559733 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 6, "PolyId": 7, "AREA": 13402.956047, "PERIMETER": 636.180931, "BEDS71#": 7, "BEDS71-ID": 6, "BEDID": "MA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "MA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 369262.351282, 4171508.424110 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 7, "PolyId": 8, "AREA": 16607.484976, "PERIMETER": 876.843261, "BEDS71#": 8, "BEDS71-ID": 7, "BEDID": "NA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "NA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 369449.070039, 4170811.991397 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 8, "PolyId": 9, "AREA": 115849.637208, "PERIMETER": 2793.924525, "BEDS71#": 9, "BEDS71-ID": 8, "BEDID": "IA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 370938.652885, 4170645.846765 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 9, "PolyId": 10, "AREA": 6682.988218, "PERIMETER": 341.810884, "BEDS71#": 10, "BEDS71-ID": 9, "BEDID": "OA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "OA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 369222.012909, 4170575.880972 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 10, "PolyId": 11, "AREA": 6259.036874, "PERIMETER": 353.534073, "BEDS71#": 11, "BEDS71-ID": 10, "BEDID": "PA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "PA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 369013.777286, 4170338.158277 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 11, "PolyId": 12, "AREA": 192162.538771, "PERIMETER": 4285.368962, "BEDS71#": 12, "BEDS71-ID": 11, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 370794.346117, 4169195.016855 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 12, "PolyId": 13, "AREA": 9751.499886, "PERIMETER": 375.981806, "BEDS71#": 13, "BEDS71-ID": 12, "BEDID": "QA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "QA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 368542.097958, 4169451.434358 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 13, "PolyId": 14, "AREA": 41459.378500, "PERIMETER": 1434.732980, "BEDS71#": 14, "BEDS71-ID": 13, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 110, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 365057.786386, 4169039.262229 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 14, "PolyId": 15, "AREA": 36357.313193, "PERIMETER": 1158.982016, "BEDS71#": 15, "BEDS71-ID": 14, "BEDID": "RA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "RA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 368436.693709, 4168613.448509 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 15, "PolyId": 16, "AREA": 563349.757858, "PERIMETER": 6621.136750, "BEDS71#": 16, "BEDS71-ID": 15, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 110, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 366382.608974, 4167399.995884 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 16, "PolyId": 17, "AREA": 9467.190075, "PERIMETER": 545.789453, "BEDS71#": 17, "BEDS71-ID": 16, "BEDID": "EA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 372788.874877, 4168368.034172 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 17, "PolyId": 18, "AREA": 68362.985509, "PERIMETER": 1540.006254, "BEDS71#": 18, "BEDS71-ID": 17, "BEDID": "SA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "CRRMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "SA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 368255.681457, 4168139.857938 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 18, "PolyId": 19, "AREA": 48557.412876, "PERIMETER": 1575.837123, "BEDS71#": 19, "BEDS71-ID": 18, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 371463.891362, 4168162.373191 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 19, "PolyId": 20, "AREA": 153133.813221, "PERIMETER": 4417.160809, "BEDS71#": 20, "BEDS71-ID": 19, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373724.554922, 4167129.021967 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 20, "PolyId": 21, "AREA": 21926.991395, "PERIMETER": 1449.989241, "BEDS71#": 21, "BEDS71-ID": 20, "BEDID": "FA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 372560.932059, 4168073.895546 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 21, "PolyId": 22, "AREA": 171527.076964, "PERIMETER": 2517.619650, "BEDS71#": 22, "BEDS71-ID": 21, "BEDID": "SA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "SA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 368031.468026, 4167681.824479 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 22, "PolyId": 23, "AREA": 29866.140899, "PERIMETER": 886.685997, "BEDS71#": 23, "BEDS71-ID": 22, "BEDID": "GA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 372137.280927, 4167772.666885 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 23, "PolyId": 24, "AREA": 46124.592364, "PERIMETER": 2052.193811, "BEDS71#": 24, "BEDS71-ID": 23, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374922.386883, 4166711.850769 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 24, "PolyId": 25, "AREA": 154563.488339, "PERIMETER": 2555.434835, "BEDS71#": 25, "BEDS71-ID": 24, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375880.304137, 4165583.870498 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 25, "PolyId": 26, "AREA": 69610.743897, "PERIMETER": 3959.330528, "BEDS71#": 26, "BEDS71-ID": 25, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 111, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376832.104738, 4165596.152687 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 26, "PolyId": 27, "AREA": 465077.251243, "PERIMETER": 4405.369343, "BEDS71#": 27, "BEDS71-ID": 26, "BEDID": "JA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 117, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 372131.386638, 4164137.689759 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 27, "PolyId": 28, "AREA": 95729.655766, "PERIMETER": 2532.073871, "BEDS71#": 28, "BEDS71-ID": 27, "BEDID": "KA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 117, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 368257.340751, 4164087.788717 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 28, "PolyId": 29, "AREA": 503737.173529, "PERIMETER": 5145.130480, "BEDS71#": 29, "BEDS71-ID": 28, "BEDID": "SA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "SA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 380274.790777, 4163093.830461 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 29, "PolyId": 30, "AREA": 344094.134832, "PERIMETER": 5109.175592, "BEDS71#": 30, "BEDS71-ID": 29, "BEDID": "IA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 117, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373815.430519, 4163264.075608 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 30, "PolyId": 31, "AREA": 544753.502305, "PERIMETER": 4636.125098, "BEDS71#": 31, "BEDS71-ID": 30, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 117, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375183.877480, 4161822.986926 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 31, "PolyId": 32, "AREA": 1049940.827322, "PERIMETER": 7895.189832, "BEDS71#": 32, "BEDS71-ID": 31, "BEDID": "FA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 117, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376482.771581, 4160203.478720 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 32, "PolyId": 33, "AREA": 5508.578489, "PERIMETER": 411.682636, "BEDS71#": 33, "BEDS71-ID": 32, "BEDID": "GA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 117, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374546.773377, 4160658.107921 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 33, "PolyId": 34, "AREA": 1928949.959926, "PERIMETER": 13456.259129, "BEDS71#": 34, "BEDS71-ID": 33, "BEDID": "RA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "RA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381111.373490, 4159427.420933 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 34, "PolyId": 35, "AREA": 227706.843402, "PERIMETER": 3307.516732, "BEDS71#": 35, "BEDS71-ID": 34, "BEDID": "QA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "QA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 384691.854737, 4158482.749779 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 35, "PolyId": 36, "AREA": 165484.005583, "PERIMETER": 1688.689905, "BEDS71#": 36, "BEDS71-ID": 35, "BEDID": "PA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "RPPMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "PA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385634.670665, 4157991.030382 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 36, "PolyId": 37, "AREA": 192.402529, "PERIMETER": 64.219540, "BEDS71#": 37, "BEDS71-ID": 36, "BEDID": "PA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "PA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385483.799501, 4157623.969126 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 37, "PolyId": 38, "AREA": 677346.554982, "PERIMETER": 6278.311552, "BEDS71#": 38, "BEDS71-ID": 37, "BEDID": "OA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "OA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 384643.248692, 4156403.100088 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 38, "PolyId": 39, "AREA": 5001.476671, "PERIMETER": 348.524782, "BEDS71#": 39, "BEDS71-ID": 38, "BEDID": "NA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "NA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 383186.527710, 4156329.918528 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 39, "PolyId": 40, "AREA": 538816.476183, "PERIMETER": 5985.350830, "BEDS71#": 40, "BEDS71-ID": 39, "BEDID": "MA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "MA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382752.697567, 4154308.304641 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 40, "PolyId": 41, "AREA": 200929.068326, "PERIMETER": 4544.728671, "BEDS71#": 41, "BEDS71-ID": 40, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 117, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377659.510039, 4155373.899219 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 41, "PolyId": 42, "AREA": 12541.491713, "PERIMETER": 638.239966, "BEDS71#": 42, "BEDS71-ID": 41, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378635.670192, 4155421.114531 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 42, "PolyId": 43, "AREA": 26982.138585, "PERIMETER": 1464.280161, "BEDS71#": 43, "BEDS71-ID": 42, "BEDID": "IA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 379212.125196, 4155179.652214 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 43, "PolyId": 44, "AREA": 39955.904505, "PERIMETER": 913.705770, "BEDS71#": 44, "BEDS71-ID": 43, "BEDID": "KA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381509.431088, 4155282.807618 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 44, "PolyId": 45, "AREA": 145427.851368, "PERIMETER": 3833.098087, "BEDS71#": 45, "BEDS71-ID": 44, "BEDID": "JA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 380641.341812, 4155179.967069 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 45, "PolyId": 46, "AREA": 43350.909190, "PERIMETER": 896.778915, "BEDS71#": 46, "BEDS71-ID": 45, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 117, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377195.558762, 4155014.082493 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 46, "PolyId": 47, "AREA": 7218.944096, "PERIMETER": 648.412086, "BEDS71#": 47, "BEDS71-ID": 46, "BEDID": "EA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 117, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376891.587177, 4155085.751608 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 47, "PolyId": 48, "AREA": 49264.219623, "PERIMETER": 1189.051124, "BEDS71#": 48, "BEDS71-ID": 47, "BEDID": "GA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378597.472689, 4154583.582168 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 48, "PolyId": 49, "AREA": 59950.855147, "PERIMETER": 1183.848290, "BEDS71#": 49, "BEDS71-ID": 48, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 117, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378474.650907, 4154566.316418 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 49, "PolyId": 50, "AREA": 62431.098634, "PERIMETER": 1808.672346, "BEDS71#": 50, "BEDS71-ID": 49, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 117, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378336.341630, 4154212.705151 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 50, "PolyId": 51, "AREA": 129113.109045, "PERIMETER": 2153.904551, "BEDS71#": 51, "BEDS71-ID": 50, "BEDID": "FA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378753.601101, 4153891.964858 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 51, "PolyId": 52, "AREA": 9471.380577, "PERIMETER": 525.365373, "BEDS71#": 52, "BEDS71-ID": 51, "BEDID": "LA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382201.617125, 4153895.535886 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 52, "PolyId": 53, "AREA": 77849.012597, "PERIMETER": 2663.512241, "BEDS71#": 53, "BEDS71-ID": 52, "BEDID": "EA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 380015.459516, 4153572.347303 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 53, "PolyId": 54, "AREA": 479909.403396, "PERIMETER": 4235.925740, "BEDS71#": 54, "BEDS71-ID": 53, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385292.579621, 4153039.900128 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 54, "PolyId": 55, "AREA": 319454.128296, "PERIMETER": 3828.824648, "BEDS71#": 55, "BEDS71-ID": 54, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 384775.187444, 4151581.982557 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 55, "PolyId": 56, "AREA": 542204.852821, "PERIMETER": 4014.051755, "BEDS71#": 56, "BEDS71-ID": 55, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382167.661663, 4151820.329147 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 56, "PolyId": 57, "AREA": 51574.081153, "PERIMETER": 1945.906174, "BEDS71#": 57, "BEDS71-ID": 56, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381048.974113, 4151927.526150 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 57, "PolyId": 58, "AREA": 153423258.242188, "PERIMETER": 49863.308334, "BEDS71#": 58, "BEDS71-ID": 57, "BEDID": "", "DENSITY": 0, "CONTIGBED": "", "QUADID": 0, "CBPSEG": "", "STATE": "", "COUNTY": 0, "ZONE": 0, "BEDLABEL": "", "SURVEYED": "F" }, "geometry": { "type": "Point", "coordinates": [ 361814.432329, 4145437.938272 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 58, "PolyId": 59, "AREA": 8377.447619, "PERIMETER": 664.105150, "BEDS71#": 59, "BEDS71-ID": 58, "BEDID": "TA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 118, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "TA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387170.893058, 4151276.477026 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 59, "PolyId": 60, "AREA": 410487.155394, "PERIMETER": 3755.732321, "BEDS71#": 60, "BEDS71-ID": 59, "BEDID": "GB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382770.081153, 4150584.093370 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 60, "PolyId": 61, "AREA": 282881.198154, "PERIMETER": 3623.398028, "BEDS71#": 61, "BEDS71-ID": 60, "BEDID": "DB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 384146.763296, 4150735.259550 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 61, "PolyId": 62, "AREA": 2002.194165, "PERIMETER": 239.813831, "BEDS71#": 62, "BEDS71-ID": 61, "BEDID": "HB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385693.874428, 4150514.009323 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 62, "PolyId": 63, "AREA": 89697.741251, "PERIMETER": 3637.418543, "BEDS71#": 63, "BEDS71-ID": 62, "BEDID": "CB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385985.359258, 4149758.839105 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 63, "PolyId": 64, "AREA": 4878.102924, "PERIMETER": 342.974914, "BEDS71#": 64, "BEDS71-ID": 63, "BEDID": "EB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 383704.503436, 4150122.392226 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 64, "PolyId": 65, "AREA": 57000.869161, "PERIMETER": 1404.876473, "BEDS71#": 65, "BEDS71-ID": 64, "BEDID": "FB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 383262.696760, 4149681.856694 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 65, "PolyId": 66, "AREA": 43856.373491, "PERIMETER": 1389.251093, "BEDS71#": 66, "BEDS71-ID": 65, "BEDID": "BB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 386857.732483, 4149400.718533 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 66, "PolyId": 67, "AREA": 3913.157864, "PERIMETER": 352.490487, "BEDS71#": 67, "BEDS71-ID": 66, "BEDID": "AB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387100.734024, 4149537.678829 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 67, "PolyId": 68, "AREA": 4278.715073, "PERIMETER": 314.965949, "BEDS71#": 68, "BEDS71-ID": 67, "BEDID": "KB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387616.682296, 4149552.900472 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 68, "PolyId": 69, "AREA": 47434.168086, "PERIMETER": 1596.435052, "BEDS71#": 69, "BEDS71-ID": 68, "BEDID": "UA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "UA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385490.364353, 4149332.020546 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 69, "PolyId": 70, "AREA": 2871.134659, "PERIMETER": 257.187766, "BEDS71#": 70, "BEDS71-ID": 69, "BEDID": "ZA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "ZA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387131.752481, 4149369.184316 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 70, "PolyId": 71, "AREA": 4035.257267, "PERIMETER": 302.385512, "BEDS71#": 71, "BEDS71-ID": 70, "BEDID": "VA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "VA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385076.191233, 4149336.751375 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 71, "PolyId": 72, "AREA": 248437.512261, "PERIMETER": 3831.829056, "BEDS71#": 72, "BEDS71-ID": 71, "BEDID": "XA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "XA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387836.497176, 4148712.195837 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 72, "PolyId": 73, "AREA": 64328.039725, "PERIMETER": 1238.614068, "BEDS71#": 73, "BEDS71-ID": 72, "BEDID": "YA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "YA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387284.364647, 4149220.472591 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 73, "PolyId": 74, "AREA": 6252.258568, "PERIMETER": 346.911948, "BEDS71#": 74, "BEDS71-ID": 73, "BEDID": "TA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "TA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385821.969876, 4149103.441337 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 74, "PolyId": 75, "AREA": 64163.318785, "PERIMETER": 1820.701911, "BEDS71#": 75, "BEDS71-ID": 74, "BEDID": "SA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "SA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 386211.520542, 4148895.469442 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 75, "PolyId": 76, "AREA": 116667.248573, "PERIMETER": 2468.456648, "BEDS71#": 76, "BEDS71-ID": 75, "BEDID": "RA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "RA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 386777.401888, 4148449.028070 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 76, "PolyId": 77, "AREA": 21063.642968, "PERIMETER": 830.484914, "BEDS71#": 77, "BEDS71-ID": 76, "BEDID": "WA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "WA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 388440.897158, 4148063.458168 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 77, "PolyId": 78, "AREA": 23009.528582, "PERIMETER": 1044.923333, "BEDS71#": 78, "BEDS71-ID": 77, "BEDID": "QA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "QA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 386390.271935, 4148071.393030 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 78, "PolyId": 79, "AREA": 76053.564322, "PERIMETER": 1406.627429, "BEDS71#": 79, "BEDS71-ID": 78, "BEDID": "PA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "PA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 386153.710019, 4147713.445637 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 79, "PolyId": 80, "AREA": 361786.344840, "PERIMETER": 4735.156658, "BEDS71#": 80, "BEDS71-ID": 79, "BEDID": "OA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "OA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387383.351384, 4147193.275375 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 80, "PolyId": 81, "AREA": 175414.420214, "PERIMETER": 3639.936440, "BEDS71#": 81, "BEDS71-ID": 80, "BEDID": "LA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 388260.007871, 4146892.068253 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 81, "PolyId": 82, "AREA": 16173.954309, "PERIMETER": 823.184968, "BEDS71#": 82, "BEDS71-ID": 81, "BEDID": "LA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 388782.269787, 4147028.239877 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 82, "PolyId": 83, "AREA": 12456.472999, "PERIMETER": 625.558481, "BEDS71#": 83, "BEDS71-ID": 82, "BEDID": "NA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "NA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387675.806532, 4146578.161961 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 83, "PolyId": 84, "AREA": 70187.227813, "PERIMETER": 1353.047383, "BEDS71#": 84, "BEDS71-ID": 83, "BEDID": "MA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "MA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387951.505649, 4146418.812792 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 84, "PolyId": 85, "AREA": 67194.271434, "PERIMETER": 1636.686195, "BEDS71#": 85, "BEDS71-ID": 84, "BEDID": "KA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 388350.564341, 4146274.570885 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 85, "PolyId": 86, "AREA": 34948.259735, "PERIMETER": 1136.769394, "BEDS71#": 86, "BEDS71-ID": 85, "BEDID": "IA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 388272.653416, 4145948.807011 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 86, "PolyId": 87, "AREA": 24581.399393, "PERIMETER": 862.900049, "BEDS71#": 87, "BEDS71-ID": 86, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 388668.403584, 4145907.695597 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 87, "PolyId": 88, "AREA": 17725.344059, "PERIMETER": 793.805209, "BEDS71#": 88, "BEDS71-ID": 87, "BEDID": "JA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387888.277324, 4145761.269945 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 88, "PolyId": 89, "AREA": 2715.237595, "PERIMETER": 258.378146, "BEDS71#": 89, "BEDS71-ID": 88, "BEDID": "GA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 388514.411616, 4145659.160503 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 89, "PolyId": 90, "AREA": 3418.044533, "PERIMETER": 245.279175, "BEDS71#": 90, "BEDS71-ID": 89, "BEDID": "FA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "PIAMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 388576.493362, 4145344.295478 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 90, "PolyId": 91, "AREA": 125083.048283, "PERIMETER": 2336.812686, "BEDS71#": 91, "BEDS71-ID": 90, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375286.679893, 4142047.815338 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 91, "PolyId": 92, "AREA": 10932.014521, "PERIMETER": 471.306821, "BEDS71#": 92, "BEDS71-ID": 91, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374718.505569, 4141340.589192 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 92, "PolyId": 93, "AREA": 98289.828370, "PERIMETER": 3007.468234, "BEDS71#": 93, "BEDS71-ID": 92, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374916.291738, 4140642.034830 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 93, "PolyId": 94, "AREA": 536225.706048, "PERIMETER": 7458.314873, "BEDS71#": 94, "BEDS71-ID": 93, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377044.207310, 4138466.003338 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 94, "PolyId": 95, "AREA": 435950.572332, "PERIMETER": 4684.758269, "BEDS71#": 95, "BEDS71-ID": 94, "BEDID": "EA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374852.354247, 4138950.777118 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 95, "PolyId": 96, "AREA": 11958.255927, "PERIMETER": 632.793137, "BEDS71#": 96, "BEDS71-ID": 95, "BEDID": "EA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381800.272429, 4139431.701348 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 96, "PolyId": 97, "AREA": 23630.972326, "PERIMETER": 981.458970, "BEDS71#": 97, "BEDS71-ID": 96, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381894.472041, 4139017.044976 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 97, "PolyId": 98, "AREA": 17558.921880, "PERIMETER": 648.477783, "BEDS71#": 98, "BEDS71-ID": 97, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381749.264129, 4138405.441131 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 98, "PolyId": 99, "AREA": 3664.237532, "PERIMETER": 437.761389, "BEDS71#": 99, "BEDS71-ID": 98, "BEDID": "FA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374827.836887, 4138057.638122 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 99, "PolyId": 100, "AREA": 204369.723175, "PERIMETER": 4975.315331, "BEDS71#": 100, "BEDS71-ID": 99, "BEDID": "MA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "MA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 372153.591220, 4137938.500405 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 100, "PolyId": 101, "AREA": 22920.550350, "PERIMETER": 911.054461, "BEDS71#": 101, "BEDS71-ID": 100, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381745.239285, 4137881.672217 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 101, "PolyId": 102, "AREA": 4751.094423, "PERIMETER": 431.747176, "BEDS71#": 102, "BEDS71-ID": 101, "BEDID": "LA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373676.245396, 4137919.930419 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 102, "PolyId": 103, "AREA": 24585.116394, "PERIMETER": 654.168836, "BEDS71#": 103, "BEDS71-ID": 102, "BEDID": "GA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374936.496506, 4137890.581734 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 103, "PolyId": 104, "AREA": 32006.960788, "PERIMETER": 770.653628, "BEDS71#": 104, "BEDS71-ID": 103, "BEDID": "IB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378383.636613, 4137777.323340 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 104, "PolyId": 105, "AREA": 11121.621192, "PERIMETER": 629.102763, "BEDS71#": 105, "BEDS71-ID": 104, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374787.658619, 4137854.201057 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 105, "PolyId": 106, "AREA": 69022.640899, "PERIMETER": 1379.860639, "BEDS71#": 106, "BEDS71-ID": 105, "BEDID": "JB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378715.642402, 4137505.274689 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 106, "PolyId": 107, "AREA": 12678.670775, "PERIMETER": 458.790223, "BEDS71#": 107, "BEDS71-ID": 106, "BEDID": "IA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374962.215581, 4137692.396676 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 107, "PolyId": 108, "AREA": 11749.149625, "PERIMETER": 675.914764, "BEDS71#": 108, "BEDS71-ID": 107, "BEDID": "KA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373820.802390, 4137592.538085 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 108, "PolyId": 109, "AREA": 73401.194055, "PERIMETER": 1204.745534, "BEDS71#": 109, "BEDS71-ID": 108, "BEDID": "JA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 122, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375289.899704, 4137564.117098 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 109, "PolyId": 110, "AREA": 13915.483951, "PERIMETER": 617.682173, "BEDS71#": 110, "BEDS71-ID": 109, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 123, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381628.602898, 4137383.054209 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 110, "PolyId": 111, "AREA": 35911.013524, "PERIMETER": 1020.259781, "BEDS71#": 111, "BEDS71-ID": 110, "BEDID": "FB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 371270.291451, 4137196.609031 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 111, "PolyId": 112, "AREA": 6488.306927, "PERIMETER": 431.271501, "BEDS71#": 112, "BEDS71-ID": 111, "BEDID": "GB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373911.278632, 4137370.114345 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 112, "PolyId": 113, "AREA": 30934.443820, "PERIMETER": 1145.039692, "BEDS71#": 113, "BEDS71-ID": 112, "BEDID": "MB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "MB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375326.542432, 4137362.370435 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 113, "PolyId": 114, "AREA": 162809.643052, "PERIMETER": 2002.837106, "BEDS71#": 114, "BEDS71-ID": 113, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378989.064775, 4137139.584011 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 114, "PolyId": 115, "AREA": 33976.914288, "PERIMETER": 987.454827, "BEDS71#": 115, "BEDS71-ID": 114, "BEDID": "JA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381555.424195, 4137168.655845 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 115, "PolyId": 116, "AREA": 2465.239918, "PERIMETER": 236.842704, "BEDS71#": 116, "BEDS71-ID": 115, "BEDID": "LB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375388.219634, 4137087.130559 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 116, "PolyId": 117, "AREA": 707102.134510, "PERIMETER": 6754.809464, "BEDS71#": 117, "BEDS71-ID": 116, "BEDID": "IA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 380170.270503, 4136466.983523 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 117, "PolyId": 118, "AREA": 3710.653020, "PERIMETER": 287.727990, "BEDS71#": 118, "BEDS71-ID": 117, "BEDID": "KB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375480.955215, 4137046.227328 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 118, "PolyId": 119, "AREA": 24392.068485, "PERIMETER": 913.997943, "BEDS71#": 119, "BEDS71-ID": 118, "BEDID": "HB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 389153.173598, 4136749.659412 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 119, "PolyId": 120, "AREA": 28001.689932, "PERIMETER": 814.679234, "BEDS71#": 120, "BEDS71-ID": 119, "BEDID": "KA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381562.887894, 4136768.574565 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 120, "PolyId": 121, "AREA": 89811.697495, "PERIMETER": 1799.098489, "BEDS71#": 121, "BEDS71-ID": 120, "BEDID": "HB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374811.684204, 4136574.673371 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 121, "PolyId": 122, "AREA": 78261.592651, "PERIMETER": 1475.439507, "BEDS71#": 122, "BEDS71-ID": 121, "BEDID": "JB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375752.021305, 4136550.773971 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 122, "PolyId": 123, "AREA": 33701.447305, "PERIMETER": 1007.955462, "BEDS71#": 123, "BEDS71-ID": 122, "BEDID": "IB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375270.328245, 4136697.293199 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 123, "PolyId": 124, "AREA": 1494777.102616, "PERIMETER": 16899.255678, "BEDS71#": 124, "BEDS71-ID": 123, "BEDID": "EB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375801.445924, 4133470.260164 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 124, "PolyId": 125, "AREA": 16088.125857, "PERIMETER": 883.334611, "BEDS71#": 125, "BEDS71-ID": 124, "BEDID": "LB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 386810.487869, 4135905.844150 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 125, "PolyId": 126, "AREA": 474358.007637, "PERIMETER": 5711.088150, "BEDS71#": 126, "BEDS71-ID": 125, "BEDID": "CB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 388176.714027, 4134447.979210 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 126, "PolyId": 127, "AREA": 1870.794323, "PERIMETER": 199.613080, "BEDS71#": 127, "BEDS71-ID": 126, "BEDID": "IB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387675.022965, 4135905.694407 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 127, "PolyId": 128, "AREA": 2669.666598, "PERIMETER": 208.944697, "BEDS71#": 128, "BEDS71-ID": 127, "BEDID": "JB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387661.356460, 4135820.384729 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 128, "PolyId": 129, "AREA": 14298.516336, "PERIMETER": 834.113129, "BEDS71#": 129, "BEDS71-ID": 128, "BEDID": "KB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387418.087949, 4135643.228870 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 129, "PolyId": 130, "AREA": 15534.730204, "PERIMETER": 908.330257, "BEDS71#": 130, "BEDS71-ID": 129, "BEDID": "GB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 388089.344273, 4135357.252657 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 130, "PolyId": 131, "AREA": 219744.372541, "PERIMETER": 5341.941552, "BEDS71#": 131, "BEDS71-ID": 130, "BEDID": "LA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKMH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 357723.851517, 4134512.599640 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 131, "PolyId": 132, "AREA": 9563.409508, "PERIMETER": 610.225148, "BEDS71#": 132, "BEDS71-ID": 131, "BEDID": "EB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387825.320653, 4135119.142755 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 132, "PolyId": 133, "AREA": 55841.749123, "PERIMETER": 1778.512748, "BEDS71#": 133, "BEDS71-ID": 132, "BEDID": "DB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387433.513333, 4134999.707640 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 133, "PolyId": 134, "AREA": 35304.836475, "PERIMETER": 1198.942420, "BEDS71#": 134, "BEDS71-ID": 133, "BEDID": "FB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 388042.695625, 4134904.050427 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 134, "PolyId": 135, "AREA": 413087.179462, "PERIMETER": 6492.122417, "BEDS71#": 135, "BEDS71-ID": 134, "BEDID": "BB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387521.227621, 4133634.441470 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 135, "PolyId": 136, "AREA": 31688.688277, "PERIMETER": 795.086047, "BEDS71#": 136, "BEDS71-ID": 135, "BEDID": "LA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382583.594608, 4134332.390401 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 136, "PolyId": 137, "AREA": 395390.099043, "PERIMETER": 2998.094267, "BEDS71#": 137, "BEDS71-ID": 136, "BEDID": "MA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "MA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382419.155603, 4133564.830958 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 137, "PolyId": 138, "AREA": 57923.814712, "PERIMETER": 1494.411649, "BEDS71#": 138, "BEDS71-ID": 137, "BEDID": "NA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "NA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382967.428236, 4133708.028191 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 138, "PolyId": 139, "AREA": 164974.871497, "PERIMETER": 2348.198693, "BEDS71#": 139, "BEDS71-ID": 138, "BEDID": "OA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "OA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 383482.329442, 4133033.562570 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 139, "PolyId": 140, "AREA": 463441.361355, "PERIMETER": 8050.542319, "BEDS71#": 140, "BEDS71-ID": 139, "BEDID": "UA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "UA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387521.436959, 4132511.372899 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 140, "PolyId": 141, "AREA": 8018.037289, "PERIMETER": 381.458037, "BEDS71#": 141, "BEDS71-ID": 140, "BEDID": "AB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387790.937167, 4133050.006710 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 141, "PolyId": 142, "AREA": 5663.153797, "PERIMETER": 351.286196, "BEDS71#": 142, "BEDS71-ID": 141, "BEDID": "ZA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "ZA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387888.123393, 4132938.046170 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 142, "PolyId": 143, "AREA": 11398.028452, "PERIMETER": 642.738784, "BEDS71#": 143, "BEDS71-ID": 142, "BEDID": "YA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "YA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387023.159749, 4132756.550291 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 143, "PolyId": 144, "AREA": 6102.644301, "PERIMETER": 533.941729, "BEDS71#": 144, "BEDS71-ID": 143, "BEDID": "WA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "WA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 386949.525669, 4132658.462866 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 144, "PolyId": 145, "AREA": 3487.304016, "PERIMETER": 291.409620, "BEDS71#": 145, "BEDS71-ID": 144, "BEDID": "XA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "XA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387114.964147, 4132621.216013 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 145, "PolyId": 146, "AREA": 14135.343345, "PERIMETER": 564.752587, "BEDS71#": 146, "BEDS71-ID": 145, "BEDID": "PA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "PA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 383825.873753, 4132507.988779 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 146, "PolyId": 147, "AREA": 9935.203799, "PERIMETER": 650.628819, "BEDS71#": 147, "BEDS71-ID": 146, "BEDID": "VA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "VA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 386806.149387, 4132257.453105 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 147, "PolyId": 148, "AREA": 229665.746120, "PERIMETER": 2867.158328, "BEDS71#": 148, "BEDS71-ID": 147, "BEDID": "RA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "RA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 384386.117868, 4131883.672431 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 148, "PolyId": 149, "AREA": 177528.347829, "PERIMETER": 3975.735754, "BEDS71#": 149, "BEDS71-ID": 148, "BEDID": "DB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374974.411510, 4131589.040374 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 149, "PolyId": 150, "AREA": 2830.801008, "PERIMETER": 246.992737, "BEDS71#": 150, "BEDS71-ID": 149, "BEDID": "QA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "QA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 383728.410376, 4132188.779675 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 150, "PolyId": 151, "AREA": 25575.379419, "PERIMETER": 1570.832646, "BEDS71#": 151, "BEDS71-ID": 150, "BEDID": "ZA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "ZA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 372260.263376, 4131859.685714 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 151, "PolyId": 152, "AREA": 31542.427630, "PERIMETER": 1530.159278, "BEDS71#": 152, "BEDS71-ID": 151, "BEDID": "CB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373920.235923, 4131438.017413 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 152, "PolyId": 153, "AREA": 144080.971496, "PERIMETER": 3157.066871, "BEDS71#": 153, "BEDS71-ID": 152, "BEDID": "TA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "TA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 387493.301067, 4131095.338823 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 153, "PolyId": 154, "AREA": 11669.645039, "PERIMETER": 664.668348, "BEDS71#": 154, "BEDS71-ID": 153, "BEDID": "BB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373400.894593, 4131603.364647 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 154, "PolyId": 155, "AREA": 16542.699544, "PERIMETER": 648.677129, "BEDS71#": 155, "BEDS71-ID": 154, "BEDID": "AB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373025.149747, 4131532.203402 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 155, "PolyId": 156, "AREA": 104146.751308, "PERIMETER": 3479.576528, "BEDS71#": 156, "BEDS71-ID": 155, "BEDID": "YA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "YA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 372555.328922, 4130846.798223 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 156, "PolyId": 157, "AREA": 651200.298429, "PERIMETER": 6431.942064, "BEDS71#": 157, "BEDS71-ID": 156, "BEDID": "SA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "SA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 386237.623435, 4130601.224450 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 157, "PolyId": 158, "AREA": 1224093.162823, "PERIMETER": 8502.162771, "BEDS71#": 158, "BEDS71-ID": 157, "BEDID": "VA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "VA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376297.836336, 4130662.948572 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 158, "PolyId": 159, "AREA": 4336.078325, "PERIMETER": 376.369405, "BEDS71#": 159, "BEDS71-ID": 158, "BEDID": "KA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 360411.803969, 4130857.234657 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 159, "PolyId": 160, "AREA": 71701.970674, "PERIMETER": 2242.699725, "BEDS71#": 160, "BEDS71-ID": 159, "BEDID": "XA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "XA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373550.074205, 4130450.271859 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 160, "PolyId": 161, "AREA": 143195.727523, "PERIMETER": 2274.809702, "BEDS71#": 161, "BEDS71-ID": 160, "BEDID": "WA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "WA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374105.544339, 4130289.066703 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 161, "PolyId": 162, "AREA": 340703.668454, "PERIMETER": 4526.806660, "BEDS71#": 162, "BEDS71-ID": 161, "BEDID": "JA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 361612.991311, 4129174.880373 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 162, "PolyId": 163, "AREA": 38733.740815, "PERIMETER": 985.128513, "BEDS71#": 163, "BEDS71-ID": 162, "BEDID": "UA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "UA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376769.591083, 4129494.662912 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 163, "PolyId": 164, "AREA": 869504.754659, "PERIMETER": 8655.730924, "BEDS71#": 164, "BEDS71-ID": 163, "BEDID": "TA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "TA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377929.500182, 4128160.902165 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 164, "PolyId": 165, "AREA": 2321.266634, "PERIMETER": 215.623302, "BEDS71#": 165, "BEDS71-ID": 164, "BEDID": "IA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 362062.815504, 4128679.629246 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 165, "PolyId": 166, "AREA": 54841.577240, "PERIMETER": 1670.244530, "BEDS71#": 166, "BEDS71-ID": 165, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 362871.674451, 4128279.566774 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 166, "PolyId": 167, "AREA": 101041.445048, "PERIMETER": 2147.506838, "BEDS71#": 167, "BEDS71-ID": 166, "BEDID": "GA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378259.358451, 4128184.418560 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 167, "PolyId": 168, "AREA": 252880.180108, "PERIMETER": 5123.418531, "BEDS71#": 168, "BEDS71-ID": 167, "BEDID": "GA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 363859.502959, 4127014.732976 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 168, "PolyId": 169, "AREA": 7716.598314, "PERIMETER": 406.916120, "BEDS71#": 169, "BEDS71-ID": 168, "BEDID": "FA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378173.600225, 4127386.944714 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 169, "PolyId": 170, "AREA": 42541.868998, "PERIMETER": 1277.152771, "BEDS71#": 170, "BEDS71-ID": 169, "BEDID": "EA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378164.789758, 4127031.721110 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 170, "PolyId": 171, "AREA": 2929280.372322, "PERIMETER": 15234.202606, "BEDS71#": 171, "BEDS71-ID": 170, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 380378.994115, 4125648.313748 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 171, "PolyId": 172, "AREA": 31517.213039, "PERIMETER": 799.080207, "BEDS71#": 172, "BEDS71-ID": 171, "BEDID": "EA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 365279.530556, 4126892.346564 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 172, "PolyId": 173, "AREA": 22934.909886, "PERIMETER": 596.324058, "BEDS71#": 173, "BEDS71-ID": 172, "BEDID": "FA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 365053.593742, 4126804.782505 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 173, "PolyId": 174, "AREA": 8316.545879, "PERIMETER": 513.427119, "BEDS71#": 174, "BEDS71-ID": 173, "BEDID": "SA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "SA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377749.233788, 4126835.878322 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 174, "PolyId": 175, "AREA": 9778.668941, "PERIMETER": 487.351416, "BEDS71#": 175, "BEDS71-ID": 174, "BEDID": "RA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "RA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377421.234450, 4126769.830115 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 175, "PolyId": 176, "AREA": 15182.388954, "PERIMETER": 698.013288, "BEDS71#": 176, "BEDS71-ID": 175, "BEDID": "QA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "QA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377427.957590, 4126527.980322 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 176, "PolyId": 177, "AREA": 3132.513648, "PERIMETER": 218.489180, "BEDS71#": 177, "BEDS71-ID": 176, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 365705.161190, 4126561.081055 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 177, "PolyId": 178, "AREA": 574264.762920, "PERIMETER": 4930.409182, "BEDS71#": 178, "BEDS71-ID": 177, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 365485.130438, 4125784.407926 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 178, "PolyId": 179, "AREA": 28981.203265, "PERIMETER": 1307.704538, "BEDS71#": 179, "BEDS71-ID": 178, "BEDID": "NB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "NB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378004.940586, 4126358.171292 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 179, "PolyId": 180, "AREA": 11375.639285, "PERIMETER": 771.974206, "BEDS71#": 180, "BEDS71-ID": 179, "BEDID": "PA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "PA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377514.264246, 4126153.869853 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 180, "PolyId": 181, "AREA": 1417.618515, "PERIMETER": 160.638411, "BEDS71#": 181, "BEDS71-ID": 180, "BEDID": "OA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "OA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377188.307711, 4126015.476202 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 181, "PolyId": 182, "AREA": 20155.290961, "PERIMETER": 906.378255, "BEDS71#": 182, "BEDS71-ID": 181, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378512.180405, 4125956.725223 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 182, "PolyId": 183, "AREA": 14531.695929, "PERIMETER": 535.291598, "BEDS71#": 183, "BEDS71-ID": 182, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 365841.182342, 4125770.531370 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 183, "PolyId": 184, "AREA": 5437.892835, "PERIMETER": 328.883938, "BEDS71#": 184, "BEDS71-ID": 183, "BEDID": "NA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "NA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377415.365302, 4125753.869420 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 184, "PolyId": 185, "AREA": 835012.034154, "PERIMETER": 6205.769015, "BEDS71#": 185, "BEDS71-ID": 184, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 379493.944897, 4125057.304296 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 185, "PolyId": 186, "AREA": 489985.886270, "PERIMETER": 5386.152974, "BEDS71#": 186, "BEDS71-ID": 185, "BEDID": "MA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "MA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377230.874859, 4124936.676524 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 186, "PolyId": 187, "AREA": 18763.421805, "PERIMETER": 613.972105, "BEDS71#": 187, "BEDS71-ID": 186, "BEDID": "LA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374244.707847, 4125096.985197 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 187, "PolyId": 188, "AREA": 776917.347427, "PERIMETER": 8501.905069, "BEDS71#": 188, "BEDS71-ID": 187, "BEDID": "MA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "MA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375516.315254, 4124777.718940 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 188, "PolyId": 189, "AREA": 113293.120275, "PERIMETER": 1875.912728, "BEDS71#": 189, "BEDS71-ID": 188, "BEDID": "", "DENSITY": 0, "CONTIGBED": "", "QUADID": 0, "CBPSEG": "", "STATE": "", "COUNTY": 0, "ZONE": 0, "BEDLABEL": "", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375753.878617, 4124876.149827 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 189, "PolyId": 190, "AREA": 16819.248659, "PERIMETER": 578.046687, "BEDS71#": 190, "BEDS71-ID": 189, "BEDID": "KA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374124.468580, 4124894.723305 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 190, "PolyId": 191, "AREA": 13238.796425, "PERIMETER": 677.398219, "BEDS71#": 191, "BEDS71-ID": 190, "BEDID": "JA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373780.683034, 4124817.605395 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 191, "PolyId": 192, "AREA": 57836.220357, "PERIMETER": 2744.358183, "BEDS71#": 192, "BEDS71-ID": 191, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 130, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 366367.969430, 4124356.795156 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 192, "PolyId": 193, "AREA": 77669.971415, "PERIMETER": 1735.114978, "BEDS71#": 193, "BEDS71-ID": 192, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 132, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 380358.609144, 4124645.454525 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 193, "PolyId": 194, "AREA": 1089351.994406, "PERIMETER": 10738.115819, "BEDS71#": 194, "BEDS71-ID": 193, "BEDID": "FA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 372635.061023, 4123925.099420 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 194, "PolyId": 195, "AREA": 3073.094085, "PERIMETER": 255.322101, "BEDS71#": 195, "BEDS71-ID": 194, "BEDID": "IA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373800.324976, 4124588.941063 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 195, "PolyId": 196, "AREA": 4286.136319, "PERIMETER": 273.912917, "BEDS71#": 196, "BEDS71-ID": 195, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373643.826127, 4124516.754034 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 196, "PolyId": 197, "AREA": 14606.456130, "PERIMETER": 731.324947, "BEDS71#": 197, "BEDS71-ID": 196, "BEDID": "GA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373903.769352, 4124313.969469 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 197, "PolyId": 198, "AREA": 2210.640621, "PERIMETER": 180.382279, "BEDS71#": 198, "BEDS71-ID": 197, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 368613.348263, 4124078.314956 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 198, "PolyId": 199, "AREA": 20421.053044, "PERIMETER": 972.798543, "BEDS71#": 199, "BEDS71-ID": 198, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 368187.068210, 4123858.841869 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 199, "PolyId": 200, "AREA": 31954.709000, "PERIMETER": 840.962301, "BEDS71#": 200, "BEDS71-ID": 199, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 368684.320643, 4123887.806136 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 200, "PolyId": 201, "AREA": 48818.059517, "PERIMETER": 2112.209378, "BEDS71#": 201, "BEDS71-ID": 200, "BEDID": "EA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 369487.679137, 4123690.187106 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 201, "PolyId": 202, "AREA": 24084.892544, "PERIMETER": 994.165765, "BEDS71#": 202, "BEDS71-ID": 201, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 139, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 366366.666569, 4123519.340591 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 202, "PolyId": 203, "AREA": 1225.367251, "PERIMETER": 150.837779, "BEDS71#": 203, "BEDS71-ID": 202, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 131, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 368955.465690, 4123657.478485 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 203, "PolyId": 204, "AREA": 13756.849708, "PERIMETER": 536.361027, "BEDS71#": 204, "BEDS71-ID": 203, "BEDID": "EA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 367598.232096, 4123599.041069 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 204, "PolyId": 205, "AREA": 145147.201067, "PERIMETER": 1771.866972, "BEDS71#": 205, "BEDS71-ID": 204, "BEDID": "CB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 369016.856091, 4123471.478236 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 205, "PolyId": 206, "AREA": 28248.298427, "PERIMETER": 1350.750092, "BEDS71#": 206, "BEDS71-ID": 205, "BEDID": "DB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 370253.635704, 4123546.088976 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 206, "PolyId": 207, "AREA": 36302.272311, "PERIMETER": 1139.430449, "BEDS71#": 207, "BEDS71-ID": 206, "BEDID": "EB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373298.836633, 4123528.675607 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 207, "PolyId": 208, "AREA": 9681.124280, "PERIMETER": 571.104296, "BEDS71#": 208, "BEDS71-ID": 207, "BEDID": "BB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 367077.848494, 4123484.414668 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 208, "PolyId": 209, "AREA": 3808.797274, "PERIMETER": 491.631339, "BEDS71#": 209, "BEDS71-ID": 208, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 139, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 366933.910917, 4123388.837163 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 209, "PolyId": 210, "AREA": 1332.684612, "PERIMETER": 162.701028, "BEDS71#": 210, "BEDS71-ID": 209, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 139, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 366750.466065, 4123208.773179 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 210, "PolyId": 211, "AREA": 5811.288090, "PERIMETER": 442.913964, "BEDS71#": 211, "BEDS71-ID": 210, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 139, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 366865.071999, 4121823.758776 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 211, "PolyId": 212, "AREA": 17021.898782, "PERIMETER": 1169.276267, "BEDS71#": 212, "BEDS71-ID": 211, "BEDID": "AB", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AB", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 367398.267646, 4121057.527237 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 212, "PolyId": 213, "AREA": 2025367.434880, "PERIMETER": 16479.078902, "BEDS71#": 213, "BEDS71-ID": 212, "BEDID": "TA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "TA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376740.674533, 4119718.823140 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 213, "PolyId": 214, "AREA": 51978.159138, "PERIMETER": 980.363369, "BEDS71#": 214, "BEDS71-ID": 213, "BEDID": "UA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "UA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373950.140805, 4120806.000005 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 214, "PolyId": 215, "AREA": 79248.297820, "PERIMETER": 2185.717081, "BEDS71#": 215, "BEDS71-ID": 214, "BEDID": "ZA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "ZA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 368359.783326, 4120759.523263 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 215, "PolyId": 216, "AREA": 27470.990980, "PERIMETER": 917.591878, "BEDS71#": 216, "BEDS71-ID": 215, "BEDID": "UA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "UA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374129.317132, 4120630.747235 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 216, "PolyId": 217, "AREA": 80398.387910, "PERIMETER": 2052.432766, "BEDS71#": 217, "BEDS71-ID": 216, "BEDID": "VA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "VA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373458.753692, 4120583.948584 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 217, "PolyId": 218, "AREA": 135967.122261, "PERIMETER": 2610.801463, "BEDS71#": 218, "BEDS71-ID": 217, "BEDID": "YA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "YA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 369105.698010, 4120308.921412 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 218, "PolyId": 219, "AREA": 24404.862369, "PERIMETER": 820.050162, "BEDS71#": 219, "BEDS71-ID": 218, "BEDID": "WA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "WA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 371785.119731, 4120374.410688 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 219, "PolyId": 220, "AREA": 16573.699367, "PERIMETER": 645.322683, "BEDS71#": 220, "BEDS71-ID": 219, "BEDID": "QA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "QA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374133.238836, 4120216.128314 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 220, "PolyId": 221, "AREA": 10239.839327, "PERIMETER": 499.093961, "BEDS71#": 221, "BEDS71-ID": 220, "BEDID": "PA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "PA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 373989.533138, 4120161.660243 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 221, "PolyId": 222, "AREA": 99187.153911, "PERIMETER": 3789.377224, "BEDS71#": 222, "BEDS71-ID": 221, "BEDID": "SA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "SA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375674.489383, 4119604.781674 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 222, "PolyId": 223, "AREA": 17335.259364, "PERIMETER": 627.970058, "BEDS71#": 223, "BEDS71-ID": 222, "BEDID": "RA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "RA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374345.226533, 4120140.150829 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 223, "PolyId": 224, "AREA": 10365.211329, "PERIMETER": 393.550155, "BEDS71#": 224, "BEDS71-ID": 223, "BEDID": "XA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "YRKPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "XA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 369949.854278, 4120079.368667 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 224, "PolyId": 225, "AREA": 73152.317647, "PERIMETER": 2294.550814, "BEDS71#": 225, "BEDS71-ID": 224, "BEDID": "OA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "OA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374362.947476, 4119502.685358 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 225, "PolyId": 226, "AREA": 87008.596507, "PERIMETER": 2462.672075, "BEDS71#": 226, "BEDS71-ID": 225, "BEDID": "MA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "MA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375612.253248, 4118875.273753 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 226, "PolyId": 227, "AREA": 27275.461356, "PERIMETER": 941.229248, "BEDS71#": 227, "BEDS71-ID": 226, "BEDID": "NA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "NA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 374614.577988, 4118731.656416 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 227, "PolyId": 228, "AREA": 871177.472342, "PERIMETER": 7979.309414, "BEDS71#": 228, "BEDS71-ID": 227, "BEDID": "LA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376713.543870, 4117547.909390 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 228, "PolyId": 229, "AREA": 2249448.500013, "PERIMETER": 6950.181747, "BEDS71#": 229, "BEDS71-ID": 228, "BEDID": "JA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 141, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382037.625983, 4116422.509158 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 229, "PolyId": 230, "AREA": 106796.177901, "PERIMETER": 2285.503427, "BEDS71#": 230, "BEDS71-ID": 229, "BEDID": "KA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376685.683051, 4115952.220683 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 230, "PolyId": 231, "AREA": 211557.153130, "PERIMETER": 3178.347131, "BEDS71#": 231, "BEDS71-ID": 230, "BEDID": "JA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376628.564233, 4115272.091187 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 231, "PolyId": 232, "AREA": 26002.224668, "PERIMETER": 759.504765, "BEDS71#": 232, "BEDS71-ID": 231, "BEDID": "IA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 141, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382191.084592, 4115597.829835 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 232, "PolyId": 233, "AREA": 20418.534184, "PERIMETER": 894.669835, "BEDS71#": 233, "BEDS71-ID": 232, "BEDID": "GA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375972.840108, 4115333.948057 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 233, "PolyId": 234, "AREA": 28703.589635, "PERIMETER": 1053.569278, "BEDS71#": 234, "BEDS71-ID": 233, "BEDID": "FA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375660.973670, 4115338.536872 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 234, "PolyId": 235, "AREA": 78392.819334, "PERIMETER": 1582.434133, "BEDS71#": 235, "BEDS71-ID": 234, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 375245.522859, 4114910.065819 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 235, "PolyId": 236, "AREA": 9990.000204, "PERIMETER": 633.013787, "BEDS71#": 236, "BEDS71-ID": 235, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376151.605990, 4114967.507335 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 236, "PolyId": 237, "AREA": 72045.557839, "PERIMETER": 1387.927363, "BEDS71#": 237, "BEDS71-ID": 236, "BEDID": "IA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376475.899135, 4114775.462064 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 237, "PolyId": 238, "AREA": 6351479.552626, "PERIMETER": 25823.870950, "BEDS71#": 238, "BEDS71-ID": 237, "BEDID": "GA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 141, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382340.991374, 4112571.092383 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 238, "PolyId": 239, "AREA": 568778.277360, "PERIMETER": 9007.338735, "BEDS71#": 239, "BEDS71-ID": 238, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 376218.907775, 4113628.477697 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 239, "PolyId": 240, "AREA": 60141.204540, "PERIMETER": 1401.783022, "BEDS71#": 240, "BEDS71-ID": 239, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377841.922290, 4113774.709928 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 240, "PolyId": 241, "AREA": 20343.984085, "PERIMETER": 784.706287, "BEDS71#": 241, "BEDS71-ID": 240, "BEDID": "FA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 141, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381084.606796, 4113776.202938 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 241, "PolyId": 242, "AREA": 14132.031593, "PERIMETER": 558.265371, "BEDS71#": 242, "BEDS71-ID": 241, "BEDID": "EA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 141, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 380862.715610, 4113743.068618 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 242, "PolyId": 243, "AREA": 676035.699894, "PERIMETER": 3697.002564, "BEDS71#": 243, "BEDS71-ID": 242, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 141, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 383826.064165, 4113105.139304 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 243, "PolyId": 244, "AREA": 20346.515169, "PERIMETER": 1151.332842, "BEDS71#": 244, "BEDS71-ID": 243, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 141, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378113.126012, 4113034.981884 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 244, "PolyId": 245, "AREA": 12666.095810, "PERIMETER": 549.801206, "BEDS71#": 245, "BEDS71-ID": 244, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 141, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378154.469185, 4112659.225543 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 245, "PolyId": 246, "AREA": 3714.042008, "PERIMETER": 284.200259, "BEDS71#": 246, "BEDS71-ID": 245, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 140, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377907.669636, 4112575.317170 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 246, "PolyId": 247, "AREA": 11959.635942, "PERIMETER": 496.100280, "BEDS71#": 247, "BEDS71-ID": 246, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 141, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 377973.801159, 4112546.831793 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 247, "PolyId": 248, "AREA": 13533.141781, "PERIMETER": 596.847104, "BEDS71#": 248, "BEDS71-ID": 247, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 141, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 378202.440906, 4112387.051876 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 248, "PolyId": 249, "AREA": 1491200.404985, "PERIMETER": 6648.455874, "BEDS71#": 249, "BEDS71-ID": 248, "BEDID": "OA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "OA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385390.949399, 4108761.604266 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 249, "PolyId": 250, "AREA": 36181.413576, "PERIMETER": 889.647620, "BEDS71#": 250, "BEDS71-ID": 249, "BEDID": "OA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "CB6PH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "OA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 386096.925737, 4108769.638251 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 250, "PolyId": 251, "AREA": 39853.168681, "PERIMETER": 1360.259309, "BEDS71#": 251, "BEDS71-ID": 250, "BEDID": "PA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "PA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 383545.940826, 4108117.064101 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 251, "PolyId": 252, "AREA": 43232.330994, "PERIMETER": 1643.059280, "BEDS71#": 252, "BEDS71-ID": 251, "BEDID": "DA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "DA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 380230.501936, 4107907.410404 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 252, "PolyId": 253, "AREA": 26824.356890, "PERIMETER": 1343.207786, "BEDS71#": 253, "BEDS71-ID": 252, "BEDID": "QA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "QA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382130.004090, 4107677.701581 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 253, "PolyId": 254, "AREA": 19284.313252, "PERIMETER": 910.768780, "BEDS71#": 254, "BEDS71-ID": 253, "BEDID": "RA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "RA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381535.661928, 4107542.965423 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 254, "PolyId": 255, "AREA": 252225.027434, "PERIMETER": 2554.778742, "BEDS71#": 255, "BEDS71-ID": 254, "BEDID": "JA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "JA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 384634.422751, 4107196.150729 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 255, "PolyId": 256, "AREA": 11603.379785, "PERIMETER": 441.224967, "BEDS71#": 256, "BEDS71-ID": 255, "BEDID": "LA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "LA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385331.794500, 4107456.338106 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 256, "PolyId": 257, "AREA": 142745.877319, "PERIMETER": 1897.814404, "BEDS71#": 257, "BEDS71-ID": 256, "BEDID": "MA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "MA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385448.510634, 4107273.762347 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 257, "PolyId": 258, "AREA": 45076.379492, "PERIMETER": 1672.638827, "BEDS71#": 258, "BEDS71-ID": 257, "BEDID": "SA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "SA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 380741.178873, 4106879.928561 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 258, "PolyId": 259, "AREA": 19703.408708, "PERIMETER": 838.749835, "BEDS71#": 259, "BEDS71-ID": 258, "BEDID": "KA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "KA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385007.989404, 4107057.403338 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 259, "PolyId": 260, "AREA": 80885.606329, "PERIMETER": 1174.647692, "BEDS71#": 260, "BEDS71-ID": 259, "BEDID": "NA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "NA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385130.958756, 4106844.121723 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 260, "PolyId": 261, "AREA": 9188.789517, "PERIMETER": 555.476492, "BEDS71#": 261, "BEDS71-ID": 260, "BEDID": "TA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "TA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 385574.954516, 4106888.992666 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 261, "PolyId": 262, "AREA": 38028.092515, "PERIMETER": 1271.414194, "BEDS71#": 262, "BEDS71-ID": 261, "BEDID": "IA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "IA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 384386.307471, 4106717.928804 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 262, "PolyId": 263, "AREA": 140148.420157, "PERIMETER": 1585.173515, "BEDS71#": 263, "BEDS71-ID": 262, "BEDID": "HA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "HA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 384647.125385, 4106520.284619 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 263, "PolyId": 264, "AREA": 64353.222780, "PERIMETER": 2005.421165, "BEDS71#": 264, "BEDS71-ID": 263, "BEDID": "FA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "FA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 383113.225942, 4106419.360940 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 264, "PolyId": 265, "AREA": 21473.634852, "PERIMETER": 631.229653, "BEDS71#": 265, "BEDS71-ID": 264, "BEDID": "EA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "EA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 382609.521766, 4106494.698647 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 265, "PolyId": 266, "AREA": 229911.569351, "PERIMETER": 2870.754414, "BEDS71#": 266, "BEDS71-ID": 265, "BEDID": "GA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "GA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 383983.557357, 4106151.890483 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 266, "PolyId": 267, "AREA": 227585.893338, "PERIMETER": 4351.193386, "BEDS71#": 267, "BEDS71-ID": 266, "BEDID": "CA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "CA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381866.670666, 4105549.889179 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 267, "PolyId": 268, "AREA": 15372.298238, "PERIMETER": 1030.769266, "BEDS71#": 268, "BEDS71-ID": 267, "BEDID": "BA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "BA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381475.150561, 4104546.824704 ] } }
+,
+{ "type": "Feature", "properties": { "ValueId": 268, "PolyId": 269, "AREA": 9771.878454, "PERIMETER": 749.090015, "BEDS71#": 269, "BEDS71-ID": 268, "BEDID": "AA", "DENSITY": -1, "CONTIGBED": "", "QUADID": 147, "CBPSEG": "MOBPH", "STATE": "VA", "COUNTY": 0, "ZONE": 3, "BEDLABEL": "AA", "SURVEYED": "T" }, "geometry": { "type": "Point", "coordinates": [ 381197.146406, 4104153.814821 ] } }
+
+]
+}
