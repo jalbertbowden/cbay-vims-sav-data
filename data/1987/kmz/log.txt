@@ -1,0 +1,8 @@
+ERROR 4: Cannot open /var/tmp/MyGeoData-DataCache/2014-01-11-16-06-38_8x6uh/result/CNT.kml
+ERROR 4: Cannot open /var/tmp/MyGeoData-DataCache/2014-01-11-16-06-38_8x6uh/result/CNT.kml
+ERROR 4: Cannot open /var/tmp/MyGeoData-DataCache/2014-01-11-16-06-38_8x6uh/result/ARC.kml
+ERROR 4: Cannot open /var/tmp/MyGeoData-DataCache/2014-01-11-16-06-38_8x6uh/result/ARC.kml
+ERROR 4: Cannot open /var/tmp/MyGeoData-DataCache/2014-01-11-16-06-38_8x6uh/result/PAL.kml
+ERROR 4: Cannot open /var/tmp/MyGeoData-DataCache/2014-01-11-16-06-38_8x6uh/result/PAL.kml
+ERROR 4: Cannot open /var/tmp/MyGeoData-DataCache/2014-01-11-16-06-38_8x6uh/result/LAB.kml
+ERROR 4: Cannot open /var/tmp/MyGeoData-DataCache/2014-01-11-16-06-38_8x6uh/result/LAB.kml

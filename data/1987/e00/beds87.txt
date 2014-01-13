@@ -1,0 +1,928 @@
+Metadata for 1987 Chesapeake Bay SAV Coverage
+
+These metadata describe the 1987 Submerged Aquatic Vegetation (SAV)
+coverage dataset that was produced at the Virginia Institute of Marine
+Science from aerial photography flown in 1987.  It is a portion of the
+full SAV dataset that extends back to 1971.
+
+Table of Contents
+
+     Identification_Information
+     Data_Quality_Information
+     Spatial_Data_Organization_Information
+     Spatial_Reference_Information
+     Entity_and_Attribute_Information
+     Distribution_Information
+     Metadata_Reference_Information
+
+Identification_Information:
+
+    Citation:
+      Citation_Information:
+        Originator:
+          Virginia Institute of Marine Science
+        Publication_Date:
+          December 1995
+        Title: 1987 Chesapeake Bay SAV Coverage
+        Publication_Information:
+          Publication_Place: Gloucester Point, Virginia
+          Publisher: Virginia Institute of Marine Science
+    Description:
+      Abstract:
+        The 1987 Chesapeake Bay SAV Coverage was mapped from 1:24,000 black
+        and white aerial photography to access water quality in the Bay.
+        Each area of SAV was traced onto 1:24,000 USGS quadrangles and
+        classified into one of four density classes by the percentage of cover.
+        The SAV beds were then digitized and converted into an Arc/Info GIS
+        coverage using the procedures documented below.
+      Purpose:
+        The annual SAV aerial photographic monitoring program provides a
+        comprehensive and accurate measure of change in SAV relative abundance 
+        that has been used to link improving water quality to increases in bay
+        living resources.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Range_of_Dates/Times:
+          Beginning_Date: 19870606
+          Ending_Date: 19871005
+      Currentness_Reference: Ground condition
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: Irregular
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -77.417
+        East_Bounding_Coordinate: -74.875
+        North_Bounding_Coordinate: 39.708
+        South_Bounding_Coordinate: 36.625
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: None.
+        Theme_Keyword: vegetative surface cover
+        Theme_Keyword: SAV
+        Theme_Keyword: submerged aquatic vegetation
+      Place:
+        Place_Keyword_Thesaurus: None
+          U.S. Department of Commerce, 1977, Countries,  dependencies,
+          areas of special sovereignty, and their principal administrative
+          divisions (Federal Information Processing Standard 10-3):Washington, 
+          D.C., National Institute of Standards and Technology.
+        Place_Keyword: US
+        Place_Keyword_Thesaurus:
+          U.S. Department of Commerce, 1987, Codes for the identification
+          of the States, the District of Columbia  and the outlying areas of
+          The United States, and associated areas
+          (Federal Information Processing Standard 5-2):Washington ,D. C.,
+          National Institute of Standards and Technology.
+        Place_Keyword: 10
+        Place_Keyword: 24
+        Place_Keyword: 51
+        Place_Keyword_Thesaurus: U.S. Postal State Abbreviations
+        Place_Keyword: VA
+        Place_Keyword: MD
+        Place_Keyword: DE
+        Place_Keyword_Thesaurus: None
+        Place_Keyword: Chesapeake Bay
+        Place_Keyword: Chincoteague Bay
+    Access_Constraints: None
+    Use_Constraints None. 
+    Point_of_Contact:
+      Contact_Position: SAV Data Administrator
+      Contact_Organization: Virginia Institute of Marine Science
+      Contact_Address: Gloucester Point, Virginia 23062
+      Contact_Phone: 804/684-7088
+      Contact_email: savadmin@vims.edu
+    Data_Set_Credit: SAV Mapping Lab, Virginia Institute of Marine Science
+
+Data_Quality_Information
+
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report:
+        The density attribute has been checked by comparison with the source 
+        material
+    Logical_Consistency_Report:
+      The coverage contains full Arc/Info polygon topology.  There are no
+      unlabeled polygons, no intersections, no unattached lines and all lines
+      have both left and right polygons identified.
+    Completeness_Report:
+      The dataset contains all SAV areas that were identified from the areas 
+      flown.  Some areas that are presumed to contain no SAV were not flown.  
+      Some small beds, particularly along narrow tributaries may not have been 
+      distinguishable on the aerial photography.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report:
+          Horizontal positional accuracy is based upon the use of USGS source
+          quadrangles which are compiled to meet National Map Accuracy
+          Standards (NMAS).  The aerial photographs were manually overlaid on 
+          mylar USGS base material during the photo interpretation process. 
+     Lineage:
+      Source_Information:
+        Source_Citation: 1987 SAV Aerial photography
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: 9x9 inch color negatives
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 19870606
+              Ending_Date: 19871005
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1987_PHOTOS
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: Mylar USGS quadrangles with photointerpreted SAV beds
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: Stable-base material
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 19870606
+              Ending_Date: 19871005
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1987_MAPS
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation:
+          Chesapeake Bay Program Segments adjusted to include land areas
+        Source_Scale_Denominator: none
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 19950614
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CBPSEGS
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation:
+          New Chesapeake Bay Program Segments adjusted to include land areas
+        Source_Scale_Denominator: none
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 19980915
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CBPSEGS98
+        Source_Contribution: spatial and attribute information
+      Process_Step:
+        Process_Description:
+	  Identification and delineation of SAV beds by
+	  photointerpretation utilized all available information
+	  including: knowledge of aquatic grass signatures on film,
+	  distribution of SAV in 1987 from aerial photography, 1987
+	  ground survey information, and aerial site surveys.  USGS 7.5
+	  minute quadrangle maps (1:24,00 scale) printed by the
+	  Mid-Continent Mapping Center of the National Cartigraphic
+	  Information Center on stable transparent mylar were used as
+	  base maps.  Distortion-free, identical copies of these base
+	  maps were made at the same scale on stable transparent mylar
+	  using a contact diazo process.
+	  SAV beds from the 1987 aerial photographs were then mapped
+	  onto these diazo mylar copies of USGS 7.5 minute quadrangles.
+	  Delineation of each SAV bed was facilitated by superimposing
+	  the photographic print with the appropriate diazo mylar
+	  quadrangle on a light table. SAV bed boundaries were then
+	  traced directly onto the diazo mylar quadrangle with a
+	  pencil. Where minor scale differences were evident between a
+	  photograph and a quadrangle, or where significant shoreline
+	  erosion or accretion had occurred since USGS publication of a
+	  map, either a best fit was obtained or shoreline changes were
+	  noted on the quadrangle.
+	  In addition to delineating SAV bed boundaries, an estimate of SAV
+	  density within each bed was made by visually comparing each
+	  bed to an enlarged Crown Density Scale similar to those
+	  developed for estimating forest tree crown cover from aerial
+	  photography. Bed density was categorized into one of four
+	  classes based on a subjective comparison with the density
+	  scale. These were: 1, very sparse (<10% coverage); 2, sparse
+	  (10-40%); 3, moderate (40-70%); or 4, dense (70-100%). Either
+	  the entire bed or subsections within the bed were assigned a
+	  bed density number (1 to 4) corresponding to the above
+	  density classes.  Some  beds were subsectioned to delineate
+	  where variation in SAV density ocurred. Additionally, each
+	  distinct SAV unit (bed or bed subsection) was assigned an
+	  identifying two letter designation unique to its map.
+	  Subsections were futher identified as contiguous beds by the
+	  addition of two letters unique to that sequence.  These
+	  contiguous bed identifications aid the tracking and analysis
+	  of single natural bed units that were subsectioned due to
+	  variation in SAV density. Coupled with the appropriate SAV
+	  map number and year of photography, these two letter
+	  designations uniquely identify each SAV bed in the data
+	  base.
+        Source_Used_Citation_Abbreviation: 1987_PHOTOS, 1987_MAPS
+        Process_Date: 19880418.
+      Process_Step:
+        Process_Description:
+          The perimeters of all SAV beds mapped from the aerial
+	  photography onto the diazo mylar copies were digitized in a
+	  clockwise direction using a NUMONICS Model 2400/2200
+	  DigiTablet Graphics Analysis System with a resolution of
+	  0.001 inches (0.00254 cm) and an accuracy of 0.005 inches
+	  (0.0127 cm). All coordinates were transmitted to a PRIME 9955
+	  computer for data management and analysis via software
+	  developed at VIMS.  The perimeter of each SAV bed was defined
+	  by a polygon with a linear data point density of 127 per
+	  chart inch (50 per cm, 5 meter ground resolution). The total
+	  number of points defining any SAV bed is dependent on overall
+	  bed size. The SAV bed perimeter was stored as X and Y
+	  coordinates in centimeters from the quadrangle origin (lower
+	  left corner).
+	  Any "island" within a polygon (digitized SAV perimeter_ was
+	  disregarded as long as a line was drawn from the outside of
+	  the polygon to the "island" and the resulting polygon was
+	  digitized in a clockwise direction. THe line connecting the
+	  "island" polygon to the larger surrounding polygon was drawn
+	  in by the digitizer operator.
+	  Prior and subsequent to each digitization session, the NUMONICS
+	  instrument was checked manually against a digitizing
+	  standard. This was accomplished by securing a diazo mylar
+	  quadrangle to the digitizing tablet. Then the mylar standard
+	  was secured to the same quadrangle and digitized four times.
+	  The information from digitizing the standard was transmitted
+	  to the beginning of the SAV bed perimeter file on the
+	  computer. The same procedure was followed at the end of each
+	  digitizing session. When this file was processed by the
+	  computer, the digitized area of each standard was compared to
+	  the known area of the standard. If a variation between the
+	  known and the mean of the observed areas exceeded 1.0%, a
+	  warning was printed advising the operator to check the
+	  digitizing system. In addition, checks were made with respect
+	  to the absolute location of the digitizing standard as
+	  secured to the map. A comparison was made between the
+	  location of the standard before and after the digitizing
+	  session. If the absolute location differed by more than 0.10
+	  cm another warning was printed.  Any movement in absolute
+	  location can be indicative of digitizer instrument drift or
+	  chart movement during the digitization session.  These checks
+	  assure that the final calculated bed locations are as
+	  accurate as possible.
+	  Maximum accuracy was maintained by exclusively using mylar
+	  quadrangles and standards rather that paper ones which can
+	  change scale as a function of changes in air temperature and
+	  humidity in the digitizer room.  A complete outline of the
+	  digitization procedure can be found in Orth et al., "Quality
+	  assurance project plan for the 1987 submerged aquatic
+	  vegetation distribution and abundance survey of the
+	  Chesapeake and Chincoteague Bays." Plan submited to U.S. EPA,
+	  Cheapeake Bay Liason Office, Annapolis, MD.
+	  Standard operating procedures (SOPs) were developed to
+	  facilitate orderly and efficient processing of the 1987 SAV
+	  maps and the SAV bed perimeter computer files produced from
+	  them, and to comply with the need for consistency, quality
+	  assurance, and quality control. SOPs developed include: a
+	  detailed procedure outlining 46 steps for digitization of SAV
+	  maps; a 47 step checklist for editing SAV perimeter computer
+	  files to insure completeness and accuracy; a digitizer log in
+	  which all operations were recorded and dated, which was used
+	  to guide and record editing operations; and a flow chart used
+	  to track progress of all operations including changes in file
+	  names.
+	  Part of the quality assurance/quality control program was
+	  designed to isolate and remove anomolous data and to obtain
+	  accurate and representative SAV bed polygons. Every SAV bed
+	  mean area was the result of at least four independent
+	  digitizations of the perimeter of each SAV bed. The computer
+	  calculated area for each replication, and the three bed
+	  perimeters most similar in terms of area were then used for
+	  the calculation of a mean area. The three replicate areas
+	  used in the mean area calcuation were required to be within
+	  5% or less from than of the mean bed area. All replicates
+	  whose areal differences were in excess of 5% of the mean bed
+	  area were flagged by the VIMS quality assurance/quality
+	  control computer program for additional error assesment. The
+	  VIMS error rate was normally less that 1%. The replicate bed
+	  perimeter whose area was most similar to the mean area was
+	  identified as the "best bed" and chosen as representative of
+	  that SAV bed.
+   	  The "best bed" perimeter coordinate points were then
+	  converted by VIMS to latitude and longitude and a copy of
+	  each on computer tape in MOSS format was then sent to the EPA
+	  Chesapeake Bay Program Computer Center for incorporation into
+	  the ARC/INFO GIS.  This was done via a three step two
+	  dimensional linear interpolation between the four corner
+	  points of every quadrangle. At the start of the digitization
+	  of of every chart, the location of each corner point in X,Y
+	  cm and in latitude and longitude is recorded at the head of
+	  the data files. The corners are numbered: 1 = lower left
+	  corner of chart origin, 2 = upper left corner, 3 = upper right
+	  corner, 4 = lower right corner. These corner points are then
+	  used to convert each individual X,Y perimeter point to
+	  latitude and longitude. If additional files are needed for a
+	  given chart, a new set of corner points are digitized and
+	  stored at the head of these files.
+        Source_Used_Citation_Abbreviation: 1987_MAPS
+        Process_Date: 19880506.
+      Process_Step:
+        Process_Description:
+	  Computer Sciences Corporation converted these files into a
+	  separate ARC/INFO format coverage for each quadrangle.
+      Process_Step:
+        Process_Description:
+	  All map sheets were plotted by VIMS staff and compared to the
+	  original diazo quadrangles for attribute and positional
+	  errors. Adjacent polygons of the same density were merged.
+	  Beds with more than 0.5 hectares of contiguous area between
+	  the plotted bed and the original map bed and beds that are
+	  offset by at least 24 meters on their entire perimeter were
+	  redigitized. After all errors had been corrected, the map was
+	  replotted and the bed areas were compared with those
+	  calculated on the PRIME.  A final check was completed by a
+	  second person to ensure that all errors had ben corrected and
+	  that any newly digitized beds were within the guidelines.
+        Source_Used_Citation_Abbreviation: 1987_MAPS
+        Process_Date: 19950706.
+      Process_Step:
+        Process_Description:
+	  All map sheets were joined into a single file by VIMS staff.
+	  The quadrangle edges were scanned to ensure that the SAV
+	  polygons were consistent on both sides of the border.
+	  Inconsistencies were resolved by checking the mylar maps and
+	  re-interpreting the photography if necessary.
+        Source_Used_Citation_Abbreviation: 1987_PHOTOS, 1987_MAPS
+        Process_Date: 19950706.
+      Process_Step:
+        Process_Description:
+	  The bay segments were overlayed on the dataset by VIMS staff,
+	  dividing any beds that fell into multiple segments.
+        Source_Used_Citation_Abbreviation: CBPSEGS
+        Process_Date: 19950706.
+      Process_Step:
+        Process_Description:
+	  The coverage was dissolved on the density item and then
+	  unioned with the new 1998 segment, quadrangle, and state coverages.
+        Source_Used_Citation_Abbreviation: CBPSEGS98
+        Process_Date: 19980915.
+
+Spatial_Data_Organization_Information
+
+    Direct_Spatial_Reference_Method: Vector
+
+Spatial_Reference_Information:
+
+    Horizontal_Coordinate_System_Definition:
+      Planar:
+        Grid_Coordinate_System:
+          Grid_Coordinate_System_Name: Universal Transverse Mercator
+          Universal_Transverse_Mercator:
+            UTM_Zone_Number: 18
+            Transverse_Mercator:
+              Scale_Factor_at_Central_Meridian: 0.9996
+              Longitude_of_Central_Meridian: 75 W
+              Latitude_of_Projection_Origin: 0.0
+              False_Easting: 500000
+              False_Northing: 0.0
+        Planar_Coordinate_Information:
+          Planar_Coordinate_Encoding_Method: coordinate pair
+          Coordinate_Representation:
+            Abscissa_Resolution: 0.875
+            Ordinate_Resolution: 0.875
+          Planar_Distance_Units: meters
+      Geodetic_Model:
+        Horizontal_Datum_Name: North American Datum 1983
+        Ellipsoid_Name: GRS 1980
+        Semi-major_Axis: 6378137
+        Denominator_of_Flattening_Ratio: 298.257
+
+Entity_and_Attribute_Information:
+
+    Overview_Description:
+      Entity_and_Attribute_Overview:
+        The SAV polygon attributes are used to identify each SAV bed or portion 
+        of an SAV bed, classify it by density and assign into a geographic or 
+        political region.
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: SAV bed
+        Entity_Type_Definition: A GT-polygon representing a portion of an SAV 
+          bed or an area completely surrounded by SAV that does not contain SAV.
+        Entity_Type_Definition_Source: 1987_MAPS
+      Attribute:
+        Attribute_Label: Area
+        Attribute_Definition: Area of the GT-polygon
+        Attribute_Definition_Source:  Arc/INFO calculation
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0
+            Range_Domain_Maximum: 999999999.999
+        Attribute_Units_of_Measurement: Meters
+        Attribute_Measurement_Resolution: 0.001
+      Attribute:
+        Attribute_Label: Perimeter
+        Attribute_Definition: Perimeter of the GT-polygon
+        Attribute_Definition_Source:  Arc/INFO calculation
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0
+            Range_Domain_Maximum: 999999999.999
+        Attribute_Units_of_Measurement: Meters
+        Attribute_Measurement_Resolution: 0.001
+      Attribute:
+        Attribute_Label: Beds93#
+        Attribute_Definition: Internal GT-polygon number
+        Attribute_Definition_Source:  Arc/INFO calculation
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0
+            Range_Domain_Maximum: 99999
+        Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: Beds93-id
+        Attribute_Definition: User GT-polygon number
+        Attribute_Definition_Source:  Arc/INFO calculation
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0
+            Range_Domain_Maximum: 99999
+        Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: BedID
+        Attribute_Definition: Two-letter SAV bed identifier.  A NULL VALUE IN
+          THIS FIELD SIGNIFIES A LAND AREA OR ANY OTHER NON-SAV AREA THAT IS 
+          COMPLETELY SURROUNDED BY SAV.  THESE POLYGONS SHOULD BE EXCLUDED FROM 
+          SAV AREA COMPUTATIONS. 
+        Attribute_Definition_Source:  1987_MAPS
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: AA
+            Range_Domain_Maximum: ZZ
+     Attribute:
+        Attribute_Label: Density
+        Attribute_Definition: SAV bed density classification
+        Attribute_Definition_Source:  1987_MAPS
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_value: 0
+            Enumerated_Domain_Definition: No SAV
+            Enumerated_Domain_value: 1
+            Enumerated_Domain_Definition: 0 - 10% cover (very sparse)
+            Enumerated_Domain_value: 2
+            Enumerated_Domain_Definition: 10 - 40% cover (sparse)
+            Enumerated_Domain_value: 3
+            Enumerated_Domain_Definition: 40 - 70% cover (moderate)
+            Enumerated_Domain_value: 4
+            Enumerated_Domain_Definition: 70 - 100% cover (dense)
+      Attribute:
+        Attribute_Label: ContigBed
+        Attribute_Definition: Two-letter identifier for a larger, multiple-
+          density bed of which this is a portion.
+        Attribute_Definition_Source:  1987_MAPS
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: AA
+            Range_Domain_Maximum: ZZ
+      Attribute:
+        Attribute_Label: QuadID
+        Attribute_Definition: Identification number of USGS quads that contains 
+          the SAV bed
+        Attribute_Definition_Source:  1992 Distribution of SAV in the
+          Chesapeake Bay, Final Report to U.S. EPA, Chesapeake Bay Program.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_value: 1
+            Enumerated_Domain_Definition: Conowingo Dam, MD.-PA.
+            Enumerated_Domain_value: 2
+            Enumerated_Domain_Definition: Aberdeen, MD.
+            Enumerated_Domain_value: 3
+            Enumerated_Domain_Definition: Havre de Grace, MD.
+            Enumerated_Domain_value: 4
+            Enumerated_Domain_Definition: North East, MD.
+            Enumerated_Domain_value: 5
+            Enumerated_Domain_Definition: Elkton, MD.-DEL.
+            Enumerated_Domain_value: 6
+            Enumerated_Domain_Definition: White Marsh, MD.
+            Enumerated_Domain_value: 7
+            Enumerated_Domain_Definition: Edgewood, MD.
+            Enumerated_Domain_value: 8
+            Enumerated_Domain_Definition: Perryman, MD.
+            Enumerated_Domain_value: 9
+            Enumerated_Domain_Definition: Spesutie, MD.
+            Enumerated_Domain_value: 10
+            Enumerated_Domain_Definition: Earleville, MD.
+            Enumerated_Domain_value: 11
+            Enumerated_Domain_Definition: Cecilton, MD.
+            Enumerated_Domain_value: 12
+            Enumerated_Domain_Definition: Baltimore East, MD.
+            Enumerated_Domain_value: 13
+            Enumerated_Domain_Definition: Middle River, MD.
+            Enumerated_Domain_value: 14
+            Enumerated_Domain_Definition: Gunpowder Neck, MD.
+            Enumerated_Domain_value: 15
+            Enumerated_Domain_Definition: Hanesville, MD.
+            Enumerated_Domain_value: 16
+            Enumerated_Domain_Definition: Betterton, MD.
+            Enumerated_Domain_value: 17
+            Enumerated_Domain_Definition: Galena, MD.
+            Enumerated_Domain_value: 18
+            Enumerated_Domain_Definition: Curtis Bay, MD.
+            Enumerated_Domain_value: 19
+            Enumerated_Domain_Definition: Sparrows Point, MD.
+            Enumerated_Domain_value: 20
+            Enumerated_Domain_Definition: Swan Point, MD.
+            Enumerated_Domain_value: 21
+            Enumerated_Domain_Definition: Rock Hall, MD.
+            Enumerated_Domain_value: 22
+            Enumerated_Domain_Definition: Chestertown, MD.
+            Enumerated_Domain_value: 23
+            Enumerated_Domain_Definition: Round Bay, MD.
+            Enumerated_Domain_value: 24
+            Enumerated_Domain_Definition: Gibson Island, MD.
+            Enumerated_Domain_value: 25
+            Enumerated_Domain_Definition: Love Point, MD.
+            Enumerated_Domain_value: 26
+            Enumerated_Domain_Definition: Langford Creek, MD.
+            Enumerated_Domain_value: 27
+            Enumerated_Domain_Definition: Centreville, MD.
+            Enumerated_Domain_value: 28
+            Enumerated_Domain_Definition: Washington West, MD.-D.C.-VA.
+            Enumerated_Domain_value: 29
+            Enumerated_Domain_Definition: Washington East, D.C.-MD.
+            Enumerated_Domain_value: 30
+            Enumerated_Domain_Definition: South River, MD.
+            Enumerated_Domain_value: 31
+            Enumerated_Domain_Definition: Annapolis, MD.
+            Enumerated_Domain_value: 32
+            Enumerated_Domain_Definition: Kent Island, MD.
+            Enumerated_Domain_value: 33
+            Enumerated_Domain_Definition: Queenstown, MD.
+            Enumerated_Domain_value: 34
+            Enumerated_Domain_Definition: Alexandria, VA.-D.C.-MD.
+            Enumerated_Domain_value: 35
+            Enumerated_Domain_Definition: Deale, MD.
+            Enumerated_Domain_value: 36
+            Enumerated_Domain_Definition: Claiborne, MD.
+            Enumerated_Domain_value: 37
+            Enumerated_Domain_Definition: St. Michaels, MD.
+            Enumerated_Domain_value: 38
+            Enumerated_Domain_Definition: Easton, MD.
+            Enumerated_Domain_value: 39
+            Enumerated_Domain_Definition: Fort Belvoir, VA.-MD.
+            Enumerated_Domain_value: 40
+            Enumerated_Domain_Definition: Mt. Vernon, VA.-MD.
+            Enumerated_Domain_value: 41
+            Enumerated_Domain_Definition: Lower Marlboro, MD.
+            Enumerated_Domain_value: 42
+            Enumerated_Domain_Definition: North Beach, MD.
+            Enumerated_Domain_value: 43
+            Enumerated_Domain_Definition: Tilghman, MD.
+            Enumerated_Domain_value: 44
+            Enumerated_Domain_Definition: Oxford, MD.
+            Enumerated_Domain_value: 45
+            Enumerated_Domain_Definition: Trappe, MD.
+            Enumerated_Domain_value: 46
+            Enumerated_Domain_Definition: Preston, MD.
+            Enumerated_Domain_value: 47
+            Enumerated_Domain_Definition: Quantico, VA.-MD.
+            Enumerated_Domain_value: 48
+            Enumerated_Domain_Definition: Indian Head, MD.- VA.
+            Enumerated_Domain_value: 49
+            Enumerated_Domain_Definition: Benedict, MD.
+            Enumerated_Domain_value: 50
+            Enumerated_Domain_Definition: Prince Frederick, MD.
+            Enumerated_Domain_value: 51
+            Enumerated_Domain_Definition: Hudson, MD.
+            Enumerated_Domain_value: 52
+            Enumerated_Domain_Definition: Church Creek, MD.
+            Enumerated_Domain_value: 53
+            Enumerated_Domain_Definition: Cambridge, MD.
+            Enumerated_Domain_value: 54
+            Enumerated_Domain_Definition: East New Market, MD.
+            Enumerated_Domain_value: 55
+            Enumerated_Domain_Definition: Widewater, VA.-MD.
+            Enumerated_Domain_value: 56
+            Enumerated_Domain_Definition: Nanjemoy, MD.
+            Enumerated_Domain_value: 57
+            Enumerated_Domain_Definition: Mathias Point, MD.-VA.
+            Enumerated_Domain_value: 58
+            Enumerated_Domain_Definition: Popes Creek, MD.
+            Enumerated_Domain_value: 59
+            Enumerated_Domain_Definition: Mechanicsville, MD.
+            Enumerated_Domain_value: 60
+            Enumerated_Domain_Definition: Broomes Island, MD.
+            Enumerated_Domain_value: 61
+            Enumerated_Domain_Definition: Cove Point, MD.
+            Enumerated_Domain_value: 62
+            Enumerated_Domain_Definition: Taylors Island, MD.
+            Enumerated_Domain_value: 63
+            Enumerated_Domain_Definition: Golden Hill, MD.
+            Enumerated_Domain_value: 64
+            Enumerated_Domain_Definition: Passapatanzy, MD.-VA.
+            Enumerated_Domain_value: 65
+            Enumerated_Domain_Definition: King George, VA.-MD.
+            Enumerated_Domain_value: 66
+            Enumerated_Domain_Definition: Dahlgren, VA.-MD.
+            Enumerated_Domain_value: 67
+            Enumerated_Domain_Definition: Colonial Beach North, VA.-MD.
+            Enumerated_Domain_value: 68
+            Enumerated_Domain_Definition: Rock Point, MD.
+            Enumerated_Domain_value: 69
+            Enumerated_Domain_Definition: Leonardtown, MD.
+            Enumerated_Domain_value: 70
+            Enumerated_Domain_Definition: Hollywood, MD.
+            Enumerated_Domain_value: 71
+            Enumerated_Domain_Definition: Solomons Island, MD.
+            Enumerated_Domain_value: 72
+            Enumerated_Domain_Definition: Barren Island, MD.
+            Enumerated_Domain_value: 73
+            Enumerated_Domain_Definition: Honga, MD.
+            Enumerated_Domain_value: 74
+            Enumerated_Domain_Definition: Wingate, MD.
+            Enumerated_Domain_value: 75
+            Enumerated_Domain_Definition: Nanticoke, MD.
+            Enumerated_Domain_value: 76
+            Enumerated_Domain_Definition: Colonial Beach South, VA.-MD.
+            Enumerated_Domain_value: 77
+            Enumerated_Domain_Definition: Stratford Hall, VA.-MD.
+            Enumerated_Domain_value: 78
+            Enumerated_Domain_Definition: St. Clements Island, VA.-MD.
+            Enumerated_Domain_value: 79
+            Enumerated_Domain_Definition: Piney Point, MD.-VA.
+            Enumerated_Domain_value: 80
+            Enumerated_Domain_Definition: St. Mary's City, MD.
+            Enumerated_Domain_value: 81
+            Enumerated_Domain_Definition: Point No Point, MD.
+            Enumerated_Domain_value: 82
+            Enumerated_Domain_Definition: Richland Point, MD.
+            Enumerated_Domain_value: 83
+            Enumerated_Domain_Definition: Bloodsworth Island, MD.
+            Enumerated_Domain_value: 84
+            Enumerated_Domain_Definition: Deal Island, MD.
+            Enumerated_Domain_value: 85
+            Enumerated_Domain_Definition: Monie, MD.
+            Enumerated_Domain_value: 86
+            Enumerated_Domain_Definition: Champlain, VA.
+            Enumerated_Domain_value: 87
+            Enumerated_Domain_Definition: Machodoc, VA.
+            Enumerated_Domain_value: 88
+            Enumerated_Domain_Definition: Kinsale, VA.-MD.
+            Enumerated_Domain_value: 89
+            Enumerated_Domain_Definition: St. George Island, MD.-VA.
+            Enumerated_Domain_value: 90
+            Enumerated_Domain_Definition: Point Lookout, MD.
+            Enumerated_Domain_value: 91
+            Enumerated_Domain_Definition: Kedges Straits, MD.
+            Enumerated_Domain_value: 92
+            Enumerated_Domain_Definition: Terrapin Sand Point, MD.
+            Enumerated_Domain_value: 93
+            Enumerated_Domain_Definition: Marion, MD.
+            Enumerated_Domain_value: 94
+            Enumerated_Domain_Definition: Mount Landing, VA.
+            Enumerated_Domain_value: 95
+            Enumerated_Domain_Definition: Tappahannock, VA.
+            Enumerated_Domain_value: 96
+            Enumerated_Domain_Definition: Lottsburg, VA.
+            Enumerated_Domain_value: 97
+            Enumerated_Domain_Definition: Heathsville, VA.-MD.
+            Enumerated_Domain_value: 98
+            Enumerated_Domain_Definition: Burgess, VA.-MD.
+            Enumerated_Domain_value: 99
+            Enumerated_Domain_Definition: Ewell, MD.-VA.
+            Enumerated_Domain_value: 100
+            Enumerated_Domain_Definition: Great Fox Island, MD.-VA.
+            Enumerated_Domain_value: 101
+            Enumerated_Domain_Definition: Crisfield, MD.-VA.
+            Enumerated_Domain_value: 102
+            Enumerated_Domain_Definition: Saxis, VA.-MD.
+            Enumerated_Domain_value: 103
+            Enumerated_Domain_Definition: Dunnsville, VA.
+            Enumerated_Domain_value: 104
+            Enumerated_Domain_Definition: Morattico, VA.
+            Enumerated_Domain_value: 105
+            Enumerated_Domain_Definition: Lively, VA.
+            Enumerated_Domain_value: 106
+            Enumerated_Domain_Definition: Reedville, VA.
+            Enumerated_Domain_value: 107
+            Enumerated_Domain_Definition: Tangier Island, VA.
+            Enumerated_Domain_value: 108
+            Enumerated_Domain_Definition: Chesconessex, VA.
+            Enumerated_Domain_value: 109
+            Enumerated_Domain_Definition: Parksley, VA.
+            Enumerated_Domain_value: 110
+            Enumerated_Domain_Definition: Urbanna, VA.
+            Enumerated_Domain_value: 111
+            Enumerated_Domain_Definition: Irvington, VA.
+            Enumerated_Domain_value: 112
+            Enumerated_Domain_Definition: Fleets Bay, VA.
+            Enumerated_Domain_value: 113
+            Enumerated_Domain_Definition: Nandua Creek, VA.
+            Enumerated_Domain_value: 114
+            Enumerated_Domain_Definition: Pungoteague, VA.
+            Enumerated_Domain_value: 115
+            Enumerated_Domain_Definition: West Point, VA.
+            Enumerated_Domain_value: 116
+            Enumerated_Domain_Definition: Saluda, VA.
+            Enumerated_Domain_value: 117
+            Enumerated_Domain_Definition: Wilton, VA.
+            Enumerated_Domain_value: 118
+            Enumerated_Domain_Definition: Deltaville, VA.
+            Enumerated_Domain_value: 119
+            Enumerated_Domain_Definition: Jamesville, VA.
+            Enumerated_Domain_value: 120
+            Enumerated_Domain_Definition: Toano, VA.
+            Enumerated_Domain_value: 121
+            Enumerated_Domain_Definition: Gressitt, VA.
+            Enumerated_Domain_value: 122
+            Enumerated_Domain_Definition: Ware Neck, VA.
+            Enumerated_Domain_value: 123
+            Enumerated_Domain_Definition: Mathews, VA.
+            Enumerated_Domain_value: 124
+            Enumerated_Domain_Definition: Franktown, VA.
+            Enumerated_Domain_value: 125
+            Enumerated_Domain_Definition: Westover, VA.
+            Enumerated_Domain_value: 126
+            Enumerated_Domain_Definition: Charles City, VA.
+            Enumerated_Domain_value: 127
+            Enumerated_Domain_Definition: Brandon, VA.
+            Enumerated_Domain_value: 128
+            Enumerated_Domain_Definition: Norge, VA.
+            Enumerated_Domain_value: 129
+            Enumerated_Domain_Definition: Williamsburg, VA.
+            Enumerated_Domain_value: 130
+            Enumerated_Domain_Definition: Clay Bank, VA.
+            Enumerated_Domain_value: 131
+            Enumerated_Domain_Definition: Achilles, VA.
+            Enumerated_Domain_value: 132
+            Enumerated_Domain_Definition: New Point Comfort, VA.
+            Enumerated_Domain_value: 133
+            Enumerated_Domain_Definition: Cape Charles, VA.
+            Enumerated_Domain_value: 134
+            Enumerated_Domain_Definition: Cheriton, VA.
+            Enumerated_Domain_value: 135
+            Enumerated_Domain_Definition: Savedge, VA.
+            Enumerated_Domain_value: 136
+            Enumerated_Domain_Definition: Claremont, VA.
+            Enumerated_Domain_value: 137
+            Enumerated_Domain_Definition: Surry, VA.
+            Enumerated_Domain_value: 138
+            Enumerated_Domain_Definition: Hog Island, VA.
+            Enumerated_Domain_value: 139
+            Enumerated_Domain_Definition: Yorktown, VA.
+            Enumerated_Domain_value: 140
+            Enumerated_Domain_Definition: Poquoson West, VA.
+            Enumerated_Domain_value: 141
+            Enumerated_Domain_Definition: Poquoson East, VA.
+            Enumerated_Domain_value: 142
+            Enumerated_Domain_Definition: Elliotts Creek, VA.
+            Enumerated_Domain_value: 143
+            Enumerated_Domain_Definition: Townsend, VA.
+            Enumerated_Domain_value: 144
+            Enumerated_Domain_Definition: Bacons Castle, VA.
+            Enumerated_Domain_value: 145
+            Enumerated_Domain_Definition: Mulberry Island, VA.
+            Enumerated_Domain_value: 146
+            Enumerated_Domain_Definition: Newport News North, VA.
+            Enumerated_Domain_value: 147
+            Enumerated_Domain_Definition: Hampton, VA.
+            Enumerated_Domain_value: 148
+            Enumerated_Domain_Definition: Benns Church, VA.
+            Enumerated_Domain_value: 149
+            Enumerated_Domain_Definition: Newport News South, VA.
+            Enumerated_Domain_value: 150
+            Enumerated_Domain_Definition: Norfolk North, VA.
+            Enumerated_Domain_value: 151
+            Enumerated_Domain_Definition: Little Creek, VA.
+            Enumerated_Domain_value: 152
+            Enumerated_Domain_Definition: Cape Henry, VA.
+            Enumerated_Domain_value: 153
+            Enumerated_Domain_Definition: Chuckatuck, VA.
+            Enumerated_Domain_value: 154
+            Enumerated_Domain_Definition: Bowers Hill, VA.
+            Enumerated_Domain_value: 155
+            Enumerated_Domain_Definition: Norfolk South, VA.
+            Enumerated_Domain_value: 156
+            Enumerated_Domain_Definition: Kempsville, VA.
+            Enumerated_Domain_value: 157
+            Enumerated_Domain_Definition: Princess Anne, VA.
+            Enumerated_Domain_value: 158
+            Enumerated_Domain_Definition: Wye Mills, MD.
+            Enumerated_Domain_value: 159
+            Enumerated_Domain_Definition: Bristol, MD.
+            Enumerated_Domain_value: 160
+            Enumerated_Domain_Definition: Fowling Creek, MD.
+            Enumerated_Domain_value: 161
+            Enumerated_Domain_Definition: Port Tobacco, MD.
+            Enumerated_Domain_value: 162
+            Enumerated_Domain_Definition: Charlotte Hall, MD.
+            Enumerated_Domain_value: 163
+            Enumerated_Domain_Definition: Mardela Springs, MD.
+            Enumerated_Domain_value: 164
+            Enumerated_Domain_Definition: Wetipquin, MD.
+            Enumerated_Domain_value: 165
+            Enumerated_Domain_Definition: Selbyville, MD.
+            Enumerated_Domain_value: 166
+            Enumerated_Domain_Definition: Assawoman Bay, MD.
+            Enumerated_Domain_value: 167
+            Enumerated_Domain_Definition: Berlin, MD.
+            Enumerated_Domain_value: 168
+            Enumerated_Domain_Definition: Ocean City, MD.
+            Enumerated_Domain_value: 169
+            Enumerated_Domain_Definition: Public Landing, MD.
+            Enumerated_Domain_value: 170
+            Enumerated_Domain_Definition: Tingles Island, MD.
+            Enumerated_Domain_value: 171
+            Enumerated_Domain_Definition: Girdle Tree, MD.-VA.
+            Enumerated_Domain_value: 172
+            Enumerated_Domain_Definition: Boxiron, MD.-VA.
+            Enumerated_Domain_value: 173
+            Enumerated_Domain_Definition: Whittington Point, MD.-VA.
+            Enumerated_Domain_value: 174
+            Enumerated_Domain_Definition: Chincoteague West, VA.
+            Enumerated_Domain_value: 175
+            Enumerated_Domain_Definition: Chincoteague East, VA.
+            Enumerated_Domain_value: 176
+            Enumerated_Domain_Definition: Anacostia, D.C.-MD.
+            Enumerated_Domain_value: 177
+            Enumerated_Domain_Definition: East of New Point, VA.
+            Enumerated_Domain_value: 179
+            Enumerated_Domain_Definition: Goose Island, VA.
+      Attribute:
+        Attribute_Label: CBPSEG
+        Attribute_Definition: Chesapeake Bay Program segment which contains 
+          the SAV bed
+        Attribute_Definition_Source:  CBPSEGS
+        Attribute_Domain_Values:
+          Codeset_Domain:
+            Codeset_Name: Chesapeake Bay Program Segment abbreviations ("CHI"
+              has been added to identify Chincoteague Bay)
+            Codeset_Source: Chesapeake Bay Program
+      Attribute:
+        Attribute_Label: STATE
+        Attribute_Definition: U.S. State which contains the SAV bed
+          (currently blank)
+      Attribute:
+        Attribute_Label: County
+        Attribute_Definition: County which contains the SAV bed
+          (currently blank)
+      Attribute:
+        Attribute_Label: Zone
+        Attribute_Definition: Bay zone which contains the the SAV bed
+        Attribute_Definition_Source:  CBPSEGS98
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_value: 1
+	    Enumerated_Domain_Definition: CB1TF, NORTF, ELKOH, C&DOH,
+	      BOHOH, SASOH, CB2OH, CB3MH, BSHOH, GUNOH, MIDOH, BACOH,
+	      PATMH, CHSMH, CHSOH, CHSTF, MAGMH (Upper Bay)
+            Enumerated_Domain_value: 2
+	    Enumerated_Domain_Definition: SEVMH, SOUMH, RHDMH, WSTMH,
+	      EASMH, CB4MH, CHOMH1, CHOMH2, CHOOH, CHOTF, LCHMH, PAXMH,
+	      PAXOH, PAXTF, HNGMH, FSBMH, NANMH, NANOH, NANTF, WICMH,
+	      MANMH, BIGMH, POCMH, POCOH, POCTF, TANMH, POTMH, POTOH,
+	      POTTF, MATTF, PISTF, CB5MH (Middle Bay)
+            Enumerated_Domain_value: 3
+ 	   Enumerated_Domain_Definition: RPPMH, CRRMH, RPPOH, RPPTF,
+	     PIAMH, CB6PH, CB7PH, MOBPH, YRKMH, YRKPH, MPNOH, MPNTF,
+	     PMKOH, PMKTF, JMSPH, ELIPH, SBEMH, JMSMH, JMSOH, CHKOH,
+	     JMSTF, APPTF, LYNPH, CB8PH (Lower Bay)
+           Enumerated_Domain_value: 4
+           Enumerated_Domain_Definition: CHIPH (Chincoteague Bay)
+      Attribute:
+        Attribute_Label: Surveyed
+        Attribute_Definition: Indicates whether the polygon was covered by the
+          annual survey.
+          Enumerated_Domain:
+            Enumerated_Domain_value: T
+            Enumerated_Domain_Definition: Included in the area surveyed
+            Enumerated_Domain_value: F
+            Enumerated_Domain_Definition: Not included in the area surveyed
+
+Distribution_Information:
+
+    Distributor:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: Virginia Institute of Marine Science
+        Contact_Position: SAV Data Administrator
+        Contact_Address: Gloucester Point, Virginia 23062
+        Contact_Phone: 804/684-7088
+        Contact_Email: savadmin@vims.edu
+    Resource_Description: 1987 Chesapeake Bay SAV Coverage
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: 7.0.2
+          Format_Specification: Coverage
+        Digital_Transfer_Option:
+          Offline_Option:
+            Offline_Media: 3.5" HD Diskette
+            Recording_Format:
+              ASCII
+          Online_Option:
+            Access_Instructions:
+              By prior arrangement the data can be placed on an anonymous 
+              ftp site for on-line access.  Contact savadmin@vims.edu for
+              details.
+    
+Metadata_Reference_Information:
+
+    Metadata_Date: 19990618
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: Virginia Institute of Marine Science
+        Contact_Position: SAV Data Administrator
+        Contact_Address: Gloucester Point, Virginia 23062
+        Contact_Phone: 804/684-7088
+        Contact_Email: savadmin@vims.edu

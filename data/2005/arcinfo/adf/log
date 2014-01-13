@@ -1,0 +1,3 @@
+200608141646   5   265     0savadmin UNION tempcov /savdata/final/baywide/bnd05 beds05e 0.01 JOIN
+200608141652   0     1     0savadmin  copy beds05e /savdata/final/baywide/beds05
+200701251516   0     1     0savadmin copy /savdata/final/baywide/beds05 beds05
