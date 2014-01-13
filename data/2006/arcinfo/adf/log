@@ -1,0 +1,7 @@
+200801281529   1     3     0dwilcox       regionclean xx152755 xx152755
+200801281529   0     0     0dwilcox     dropfeatures xx152755 region.*
+200801281530   1     1     0dwilcox     reselect xx152755 beds06new
+200801281530   0     0     0dwilcox     labelerrors beds06new unlabeled
+200801281530   0     0     0dwilcox           createlabels beds06new
+200801281531   1     6     0dwilcox           build beds06new
+200801281533   0     0     0dwilcox rename beds06new beds06

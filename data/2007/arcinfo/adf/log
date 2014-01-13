@@ -1,0 +1,10 @@
+200812161138   1     1     0dwilcox       regionclean xx113744 xx113744
+200812161138   0     0     0dwilcox     dropfeatures xx113744 region.*
+200812161138   0     0     0dwilcox     reselect xx113744 beds07p
+200812161138   0     1     0dwilcox     labelerrors beds07p unlabeled
+200812161138   0     0     0dwilcox           createlabels beds07p
+200812161139   1     4     0dwilcox           build beds07p
+200812161411   0     0     0dwilcox ARCEDIT Z:\BEDS07P
+200812161412   1     3     0dwilcox build beds07p poly
+200812161432   0     0     0dwilcox ARCEDIT Z:\BEDS07P
+200812161444   0     1     0dwilcox rename beds07p beds07
