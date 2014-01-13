@@ -1,0 +1,7 @@
+200407091722   8   214    10savadmin UNION beds03 /savdata/final/baywide/bnd03 beds03e 0.01 JOIN
+20040712 824   0     2    50savadmin copy beds03e /savdata/final/baywide/beds03
+20040813 859   0     0     0savadmin ARCEDIT /SAVDATA/FINAL/BAYWIDE/BEDS03
+20040813 900   0     0     0savadmin ARCEDIT /SAVDATA/FINAL/BAYWIDE/BEDS03
+20040813 901   1    72    42savadmin build /savdata/final/baywide/beds03
+20040813 905   0     0     0savadmin ARCEDIT /SAVDATA/FINAL/BAYWIDE/BEDS03
+200412061806   0     1     0savadmin copy /savdata/final/baywide/beds03 beds03

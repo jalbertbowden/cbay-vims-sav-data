@@ -1,0 +1,3 @@
+200512081630   5   247     0dwilcox union beds04 /savdata/work/admin/cutter beds04c 0.1 join
+200512081633   0     1     0savadmin copy /savdata/usr/dwilcox/beds04c /savdata/final/baywide/beds04
+20060417 938   0     1     0savadmin copy /savdata/final/baywide/beds04 beds04
