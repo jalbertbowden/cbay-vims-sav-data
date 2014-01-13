@@ -1,0 +1,2 @@
+199908131047   7   161     0savadmin UNION beds98 /savdata/final/baywide/bnd98 beds98e 0.01 JOIN
+199908131055   1     0     0savadmin  copy beds98e /savdata/final/baywide/beds98

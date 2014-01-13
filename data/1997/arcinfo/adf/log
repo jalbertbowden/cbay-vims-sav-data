@@ -1,0 +1,5 @@
+199902051620   7   145     0dwilcox UNION beds97 /savdata/final/baywide/bnd97 beds97e 0.01 JOIN
+199902051651   1     0     0dwilcox copy beds97e /savdata/final/baywide/beds97
+199902051652   1    20     0dwilcox export cover /savdata/final/baywide/beds97 beds97.e00 none
+199902051655   1    18     0dwilcox export cover /savdata/final/baywide/beds97 beds97.e00 none
+199902051724   1    19     0dwilcox export cover /savdata/final/baywide/beds97 beds97.e00 none
