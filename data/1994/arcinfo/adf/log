@@ -1,0 +1,3 @@
+199804161354  26   658  8450savadmin UNION beds94 /savdata/final/baywide/bnd94 beds94e 0.01 JOIN
+199804161627   1     3   945savadmin     copy beds94e /savdata/final/baywide/beds94
+199902051716   0    10     0dwilcox export cover /savdata/final/baywide/beds94 beds94.e00 none
