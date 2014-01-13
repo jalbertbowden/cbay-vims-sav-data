@@ -1,0 +1,7 @@
+20100804 904   0     3     0dwilcox       regionclean xx090342 xx090342
+20100804 904   0     0     0dwilcox     dropfeatures xx090342 region.*
+20100804 905   1     1     0dwilcox     reselect xx090342 beds09pr
+20100804 905   0     1     0dwilcox     labelerrors beds09pr unlabeled
+20100804 905   0     0     0dwilcox           createlabels beds09pr
+20100804 906   1     7     0dwilcox           build beds09pr
+20100804 909   0     0     0dwilcox copy beds09pr y:\baywide\beds09

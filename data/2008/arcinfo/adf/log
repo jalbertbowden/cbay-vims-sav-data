@@ -1,0 +1,7 @@
+20091222 915   0     2     0dwilcox       regionclean xx091509 xx091509
+20091222 915   0     0     0dwilcox     dropfeatures xx091509 region.*
+20091222 915   0     1     0dwilcox     reselect xx091509 beds08p
+20091222 915   0     1     0dwilcox     labelerrors beds08p unlabeled
+20091222 915   0     0     0dwilcox           createlabels beds08p
+20091222 916   1     6     0dwilcox           build beds08p
+20091222 941   0     0     0dwilcox  copy beds08p y:\baywide\beds08

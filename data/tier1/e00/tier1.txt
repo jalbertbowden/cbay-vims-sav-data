@@ -1,0 +1,846 @@
+Metadata for Chesapeake Bay Tier I Coverage
+
+These metadata describe the Chesapeake Bay Tier I coverage dataset that
+was produced at the Virginia Institute of Marine Science by combining
+data from twelve annual submerged aquatic vegetation distribution and
+abundance surveys, covering a period from 1971 to 1990.
+
+Table of Contents
+
+     Identification_Information
+     Data_Quality_Information
+     Spatial_Data_Organization_Information
+     Spatial_Reference_Information
+     Entity_and_Attribute_Information
+     Distribution_Information
+     Metadata_Reference_Information
+
+Identification_Information:
+
+    Citation:
+      Citation_Information:
+        Originator:
+          Virginia Institute of Marine Science
+        Publication_Date:
+          December 1995
+        Title: Chesapeake Bay Tier I Coverage
+        Publication_Information:
+          Publication_Place: Gloucester Point, Virginia
+          Publisher: Virginia Institute of Marine Science
+    Description:
+      Abstract:
+	The Chesapeake Bay Tier I Coverage was produced by combining
+	all SAV polygons from the 1971, 1974, 1978, 1979, 1980, 1981,
+	1984, 1985, 1986, 1987, 1989, and 1990 annual submerged aquatic
+	vegetation distribution and abundance surveys which were
+	compiled from aerial photography.
+      Purpose:
+	The Tier I coverage represents the first tier of the
+	three-tiered strategy that has been adopted to evaluate
+	Chesapeake Bay restoration efforts.  It includes all areas that
+	were shown to support SAV by the annual surveys for the period
+	of 1971 to 1990.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Range_of_Dates/Times:
+          Beginning_Date: 19711001
+          Ending_Date: 19900918
+      Currentness_Reference: Ground condition
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: Irregular
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -77.417
+        East_Bounding_Coordinate: -74.875
+        North_Bounding_Coordinate: 39.708
+        South_Bounding_Coordinate: 36.625
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: None.
+        Theme_Keyword: vegetative surface cover
+        Theme_Keyword: SAV
+        Theme_Keyword: submerged aquatic vegetation
+      Place:
+        Place_Keyword_Thesaurus: None
+          U.S. Department of Commerce, 1977, Countries,  dependencies,
+          areas of special sovereignty, and their principal administrative
+          divisions (Federal Information Processing Standard 10-3):Washington, 
+          D.C., National Institute of Standards and Technology.
+        Place_Keyword: US
+        Place_Keyword_Thesaurus:
+          U.S. Department of Commerce, 1987, Codes for the identification
+          of the States, the District of Columbia  and the outlying areas of
+          The United States, and associated areas
+          (Federal Information Processing Standard 5-2):Washington ,D. C.,
+          National Institute of Standards and Technology.
+        Place_Keyword: 10
+        Place_Keyword: 24
+        Place_Keyword: 51
+        Place_Keyword_Thesaurus: U.S. Postal State Abbreviations
+        Place_Keyword: VA
+        Place_Keyword: MD
+        Place_Keyword: DE
+        Place_Keyword_Thesaurus: None
+        Place_Keyword: Chesapeake Bay
+        Place_Keyword: Chincoteague Bay
+    Access_Constraints: None
+    Use_Constraints None. 
+    Point_of_Contact:
+      Contact_Position: SAV Data Administrator
+      Contact_Organization: Virginia Institute of Marine Science
+      Contact_Address: Gloucester Point, Virginia 23062
+      Contact_Phone: 804/642-7088
+      Contact_email: savadmin@vims.edu
+    Data_Set_Credit: SAV Mapping Lab, Virginia Institute of Marine Science
+
+Data_Quality_Information
+
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report:
+        The density attribute has been checked by comparison with the source 
+        material
+    Logical_Consistency_Report:
+      The coverage contains full Arc/Info polygon topology.  There are no
+      unlabeled polygons, no intersections, no unattached lines and all lines
+      have both left and right polygons identified.
+    Completeness_Report:
+      The dataset contains all SAV areas that were identified from the
+      areas flown.  Some areas that are presumed to contain no SAV were
+      not flown.  Some small beds, particularly along narrow
+      tributaries may not have been distinguishable on the aerial
+      photography.  Some annual surveys did not cover the entire bay.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report:
+	  Horizontal positional accuracy is based upon the use of USGS
+	  source quadrangles which are compiled to meet National Map
+	  Accuracy Standards (NMAS).  The aerial photographs were
+	  manually overlaid on USGS base material during the photo
+	  interpretation process.  The maps were then digitized within
+	  24 meters of the interperted line.
+     Lineage:
+      Source_Information:
+        Source_Citation: 1971 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 197110
+              Ending_Date: 197110
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1971_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: 1974 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 197406
+              Ending_Date: 197409
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1974_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: 1978 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 19780611
+              Ending_Date: 197810
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1979_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: 1971 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 1979
+              Ending_Date: 1979
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1979_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: 1980 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 19800608
+              Ending_Date: 19800628
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1980_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: 1981 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 19810608
+              Ending_Date: 19810628
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1981_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: 1984 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 19840604
+              Ending_Date: 19840612
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1984_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: 1985 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 19850625
+              Ending_Date: 19851019
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1985_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: 1986 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 19860625
+              Ending_Date: 19861019
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1986_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: 1987 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 19870606
+              Ending_Date: 19871005
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1987_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: 1989 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 19890611
+              Ending_Date: 19891010
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1989_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation: 1990 Chesapeake Bay SAV Coverage
+        Source_Scale_Denominator: 24000
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Range_of_Dates/Times:
+              Beginning_Date: 19900523
+              Ending_Date: 1990918
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: 1990_SAV
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation:
+          Chesapeake Bay Program Segments adjusted to include land areas
+        Source_Scale_Denominator: none
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 19950614
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CBPSEGS
+        Source_Contribution: spatial and attribute information
+      Source_Information:
+        Source_Citation:
+          New Chesapeake Bay Program Segments adjusted to include land areas
+        Source_Scale_Denominator: none
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 19980915
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: CBPSEGS98
+        Source_Contribution: spatial and attribute information
+      Process_Step:
+        Process_Description:
+	  The coverage for each year was dissolved, retaining only the
+	  density attribute which was renamed d71, d74, ... ,  d90.
+	  These were then unioned to form a single large coverage.
+	  It was inspected to determine the area contributed solely
+	  by any one year and to detect any other anomallies.  Finally
+	  a tier1 item was added to the coverage and used to code SAV
+	  polygons as one and everything else as zero.  The coverage
+	  was then disolved on the tier1 item and unioned with the
+	  segment and quadrangle coverages to form the Tier I
+	  coverage.
+        Source_Used_Citation_Abbreviation: 1971_SAV, 1974_SAV, 1978_SAV, 
+	  1979_SAV, 1980_SAV, 1981_SAV, 1984_SAV, 1985_SAV, 1986_SAV,
+	  1987_SAV, 1989_SAV, 1990_SAV, CBPSEGS
+        Process_Date: 19951206.
+      Process_Step:
+        Process_Description:
+	  The coverage was disolved on the tier1 item and then unioned with the
+	  new 1998 segment and quadrangle coverages to form the Tier I
+	  coverage.
+        Source_Used_Citation_Abbreviation: CBPSEGS98
+        Process_Date: 19980915.
+
+Spatial_Data_Organization_Information
+
+    Direct_Spatial_Reference_Method: Vector
+
+Spatial_Reference_Information:
+
+    Horizontal_Coordinate_System_Definition:
+      Planar:
+        Grid_Coordinate_System:
+          Grid_Coordinate_System_Name: Universal Transverse Mercator
+          Universal_Transverse_Mercator:
+            UTM_Zone_Number: 18
+            Transverse_Mercator:
+              Scale_Factor_at_Central_Meridian: 0.9996
+              Longitude_of_Central_Meridian: 75 W
+              Latitude_of_Projection_Origin: 0.0
+              False_Easting: 500000
+              False_Northing: 0.0
+        Planar_Coordinate_Information:
+          Planar_Coordinate_Encoding_Method: coordinate pair
+          Coordinate_Representation:
+            Abscissa_Resolution: 0.875
+            Ordinate_Resolution: 0.875
+          Planar_Distance_Units: meters
+      Geodetic_Model:
+        Horizontal_Datum_Name: North American Datum 1983
+        Ellipsoid_Name: GRS 1980
+        Semi-major_Axis: 6378137
+        Denominator_of_Flattening_Ratio: 298.257
+
+Entity_and_Attribute_Information:
+
+    Overview_Description:
+      Entity_and_Attribute_Overview:
+	The SAV polygon attributes are used to identify each area of
+	Tier I and assign into a geographic or political region.
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: SAV area
+        Entity_Type_Definition: A GT-polygon representing an area of Tier I 
+	  or an area completely surrounded by Tier I that does is not
+	  part of Tier I.
+        Entity_Type_Definition_Source: 1971_SAV, 1974_SAV, 1978_SAV, 
+	  1979_SAV, 1980_SAV, 1981_SAV, 1984_SAV, 1985_SAV, 1986_SAV,
+	  1987_SAV, 1989_SAV, 1990_SAV
+      Attribute:
+        Attribute_Label: Area
+        Attribute_Definition: Area of the GT-polygon
+        Attribute_Definition_Source:  Arc/INFO calculation
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0
+            Range_Domain_Maximum: 999999999.999
+        Attribute_Units_of_Measurement: Meters
+        Attribute_Measurement_Resolution: 0.001
+      Attribute:
+        Attribute_Label: Perimeter
+        Attribute_Definition: Perimeter of the GT-polygon
+        Attribute_Definition_Source:  Arc/INFO calculation
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0
+            Range_Domain_Maximum: 999999999.999
+        Attribute_Units_of_Measurement: Meters
+        Attribute_Measurement_Resolution: 0.001
+      Attribute:
+        Attribute_Label: Tier1#
+        Attribute_Definition: Internal GT-polygon number
+        Attribute_Definition_Source:  Arc/INFO calculation
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0
+            Range_Domain_Maximum: 99999
+        Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: Tier1-id
+        Attribute_Definition: User GT-polygon number
+        Attribute_Definition_Source:  Arc/INFO calculation
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0
+            Range_Domain_Maximum: 99999
+        Attribute_Measurement_Resolution: 1
+      Attribute:
+        Attribute_Label: Tier1
+        Attribute_Definition: Indicated whether the polygon is a part
+          of Tier I. 
+        Attribute_Definition_Source:  1971_SAV, 1974_SAV, 1978_SAV, 
+	  1979_SAV, 1980_SAV, 1981_SAV, 1984_SAV, 1985_SAV, 1986_SAV,
+	  1987_SAV, 1989_SAV, 1990_SAV, CBPSEGS
+          Enumerated_Domain:
+            Enumerated_Domain_value: 0
+            Enumerated_Domain_Definition: Not part of Tier I
+            Enumerated_Domain_value: 1
+            Enumerated_Domain_Definition: Part of Tier I
+      Attribute:
+        Attribute_Label: QuadID
+        Attribute_Definition: Identification number of USGS quads that contains 
+          the portion of Tier I
+        Attribute_Definition_Source:  1993 Distribution of SAV in the
+          Chesapeake Bay, Final Report to U.S. EPA, Chesapeake Bay Program.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_value: 1
+            Enumerated_Domain_Definition: Conowingo Dam, MD.-PA.
+            Enumerated_Domain_value: 2
+            Enumerated_Domain_Definition: Aberdeen, MD.
+            Enumerated_Domain_value: 3
+            Enumerated_Domain_Definition: Havre de Grace, MD.
+            Enumerated_Domain_value: 4
+            Enumerated_Domain_Definition: North East, MD.
+            Enumerated_Domain_value: 5
+            Enumerated_Domain_Definition: Elkton, MD.-DEL.
+            Enumerated_Domain_value: 6
+            Enumerated_Domain_Definition: White Marsh, MD.
+            Enumerated_Domain_value: 7
+            Enumerated_Domain_Definition: Edgewood, MD.
+            Enumerated_Domain_value: 8
+            Enumerated_Domain_Definition: Perryman, MD.
+            Enumerated_Domain_value: 9
+            Enumerated_Domain_Definition: Spesutie, MD.
+            Enumerated_Domain_value: 10
+            Enumerated_Domain_Definition: Earleville, MD.
+            Enumerated_Domain_value: 11
+            Enumerated_Domain_Definition: Cecilton, MD.
+            Enumerated_Domain_value: 12
+            Enumerated_Domain_Definition: Baltimore East, MD.
+            Enumerated_Domain_value: 13
+            Enumerated_Domain_Definition: Middle River, MD.
+            Enumerated_Domain_value: 14
+            Enumerated_Domain_Definition: Gunpowder Neck, MD.
+            Enumerated_Domain_value: 15
+            Enumerated_Domain_Definition: Hanesville, MD.
+            Enumerated_Domain_value: 16
+            Enumerated_Domain_Definition: Betterton, MD.
+            Enumerated_Domain_value: 17
+            Enumerated_Domain_Definition: Galena, MD.
+            Enumerated_Domain_value: 18
+            Enumerated_Domain_Definition: Curtis Bay, MD.
+            Enumerated_Domain_value: 19
+            Enumerated_Domain_Definition: Sparrows Point, MD.
+            Enumerated_Domain_value: 20
+            Enumerated_Domain_Definition: Swan Point, MD.
+            Enumerated_Domain_value: 21
+            Enumerated_Domain_Definition: Rock Hall, MD.
+            Enumerated_Domain_value: 22
+            Enumerated_Domain_Definition: Chestertown, MD.
+            Enumerated_Domain_value: 23
+            Enumerated_Domain_Definition: Round Bay, MD.
+            Enumerated_Domain_value: 24
+            Enumerated_Domain_Definition: Gibson Island, MD.
+            Enumerated_Domain_value: 25
+            Enumerated_Domain_Definition: Love Point, MD.
+            Enumerated_Domain_value: 26
+            Enumerated_Domain_Definition: Langford Creek, MD.
+            Enumerated_Domain_value: 27
+            Enumerated_Domain_Definition: Centreville, MD.
+            Enumerated_Domain_value: 28
+            Enumerated_Domain_Definition: Washington West, MD.-D.C.-VA.
+            Enumerated_Domain_value: 29
+            Enumerated_Domain_Definition: Washington East, D.C.-MD.
+            Enumerated_Domain_value: 30
+            Enumerated_Domain_Definition: South River, MD.
+            Enumerated_Domain_value: 31
+            Enumerated_Domain_Definition: Annapolis, MD.
+            Enumerated_Domain_value: 32
+            Enumerated_Domain_Definition: Kent Island, MD.
+            Enumerated_Domain_value: 33
+            Enumerated_Domain_Definition: Queenstown, MD.
+            Enumerated_Domain_value: 34
+            Enumerated_Domain_Definition: Alexandria, VA.-D.C.-MD.
+            Enumerated_Domain_value: 35
+            Enumerated_Domain_Definition: Deale, MD.
+            Enumerated_Domain_value: 36
+            Enumerated_Domain_Definition: Claiborne, MD.
+            Enumerated_Domain_value: 37
+            Enumerated_Domain_Definition: St. Michaels, MD.
+            Enumerated_Domain_value: 38
+            Enumerated_Domain_Definition: Easton, MD.
+            Enumerated_Domain_value: 39
+            Enumerated_Domain_Definition: Fort Belvoir, VA.-MD.
+            Enumerated_Domain_value: 40
+            Enumerated_Domain_Definition: Mt. Vernon, VA.-MD.
+            Enumerated_Domain_value: 41
+            Enumerated_Domain_Definition: Lower Marlboro, MD.
+            Enumerated_Domain_value: 42
+            Enumerated_Domain_Definition: North Beach, MD.
+            Enumerated_Domain_value: 43
+            Enumerated_Domain_Definition: Tilghman, MD.
+            Enumerated_Domain_value: 44
+            Enumerated_Domain_Definition: Oxford, MD.
+            Enumerated_Domain_value: 45
+            Enumerated_Domain_Definition: Trappe, MD.
+            Enumerated_Domain_value: 46
+            Enumerated_Domain_Definition: Preston, MD.
+            Enumerated_Domain_value: 47
+            Enumerated_Domain_Definition: Quantico, VA.-MD.
+            Enumerated_Domain_value: 48
+            Enumerated_Domain_Definition: Indian Head, MD.- VA.
+            Enumerated_Domain_value: 49
+            Enumerated_Domain_Definition: Benedict, MD.
+            Enumerated_Domain_value: 50
+            Enumerated_Domain_Definition: Prince Frederick, MD.
+            Enumerated_Domain_value: 51
+            Enumerated_Domain_Definition: Hudson, MD.
+            Enumerated_Domain_value: 52
+            Enumerated_Domain_Definition: Church Creek, MD.
+            Enumerated_Domain_value: 53
+            Enumerated_Domain_Definition: Cambridge, MD.
+            Enumerated_Domain_value: 54
+            Enumerated_Domain_Definition: East New Market, MD.
+            Enumerated_Domain_value: 55
+            Enumerated_Domain_Definition: Widewater, VA.-MD.
+            Enumerated_Domain_value: 56
+            Enumerated_Domain_Definition: Nanjemoy, MD.
+            Enumerated_Domain_value: 57
+            Enumerated_Domain_Definition: Mathias Point, MD.-VA.
+            Enumerated_Domain_value: 58
+            Enumerated_Domain_Definition: Popes Creek, MD.
+            Enumerated_Domain_value: 59
+            Enumerated_Domain_Definition: Mechanicsville, MD.
+            Enumerated_Domain_value: 60
+            Enumerated_Domain_Definition: Broomes Island, MD.
+            Enumerated_Domain_value: 61
+            Enumerated_Domain_Definition: Cove Point, MD.
+            Enumerated_Domain_value: 62
+            Enumerated_Domain_Definition: Taylors Island, MD.
+            Enumerated_Domain_value: 63
+            Enumerated_Domain_Definition: Golden Hill, MD.
+            Enumerated_Domain_value: 64
+            Enumerated_Domain_Definition: Passapatanzy, MD.-VA.
+            Enumerated_Domain_value: 65
+            Enumerated_Domain_Definition: King George, VA.-MD.
+            Enumerated_Domain_value: 66
+            Enumerated_Domain_Definition: Dahlgren, VA.-MD.
+            Enumerated_Domain_value: 67
+            Enumerated_Domain_Definition: Colonial Beach North, VA.-MD.
+            Enumerated_Domain_value: 68
+            Enumerated_Domain_Definition: Rock Point, MD.
+            Enumerated_Domain_value: 69
+            Enumerated_Domain_Definition: Leonardtown, MD.
+            Enumerated_Domain_value: 70
+            Enumerated_Domain_Definition: Hollywood, MD.
+            Enumerated_Domain_value: 71
+            Enumerated_Domain_Definition: Solomons Island, MD.
+            Enumerated_Domain_value: 72
+            Enumerated_Domain_Definition: Barren Island, MD.
+            Enumerated_Domain_value: 73
+            Enumerated_Domain_Definition: Honga, MD.
+            Enumerated_Domain_value: 74
+            Enumerated_Domain_Definition: Wingate, MD.
+            Enumerated_Domain_value: 75
+            Enumerated_Domain_Definition: Nanticoke, MD.
+            Enumerated_Domain_value: 76
+            Enumerated_Domain_Definition: Colonial Beach South, VA.-MD.
+            Enumerated_Domain_value: 77
+            Enumerated_Domain_Definition: Stratford Hall, VA.-MD.
+            Enumerated_Domain_value: 78
+            Enumerated_Domain_Definition: St. Clements Island, VA.-MD.
+            Enumerated_Domain_value: 79
+            Enumerated_Domain_Definition: Piney Point, MD.-VA.
+            Enumerated_Domain_value: 80
+            Enumerated_Domain_Definition: St. Mary's City, MD.
+            Enumerated_Domain_value: 81
+            Enumerated_Domain_Definition: Point No Point, MD.
+            Enumerated_Domain_value: 82
+            Enumerated_Domain_Definition: Richland Point, MD.
+            Enumerated_Domain_value: 83
+            Enumerated_Domain_Definition: Bloodsworth Island, MD.
+            Enumerated_Domain_value: 84
+            Enumerated_Domain_Definition: Deal Island, MD.
+            Enumerated_Domain_value: 85
+            Enumerated_Domain_Definition: Monie, MD.
+            Enumerated_Domain_value: 86
+            Enumerated_Domain_Definition: Champlain, VA.
+            Enumerated_Domain_value: 87
+            Enumerated_Domain_Definition: Machodoc, VA.
+            Enumerated_Domain_value: 88
+            Enumerated_Domain_Definition: Kinsale, VA.-MD.
+            Enumerated_Domain_value: 89
+            Enumerated_Domain_Definition: St. George Island, MD.-VA.
+            Enumerated_Domain_value: 90
+            Enumerated_Domain_Definition: Point Lookout, MD.
+            Enumerated_Domain_value: 91
+            Enumerated_Domain_Definition: Kedges Straits, MD.
+            Enumerated_Domain_value: 92
+            Enumerated_Domain_Definition: Terrapin Sand Point, MD.
+            Enumerated_Domain_value: 93
+            Enumerated_Domain_Definition: Marion, MD.
+            Enumerated_Domain_value: 94
+            Enumerated_Domain_Definition: Mount Landing, VA.
+            Enumerated_Domain_value: 95
+            Enumerated_Domain_Definition: Tappahannock, VA.
+            Enumerated_Domain_value: 96
+            Enumerated_Domain_Definition: Lottsburg, VA.
+            Enumerated_Domain_value: 97
+            Enumerated_Domain_Definition: Heathsville, VA.-MD.
+            Enumerated_Domain_value: 98
+            Enumerated_Domain_Definition: Burgess, VA.-MD.
+            Enumerated_Domain_value: 99
+            Enumerated_Domain_Definition: Ewell, MD.-VA.
+            Enumerated_Domain_value: 100
+            Enumerated_Domain_Definition: Great Fox Island, MD.-VA.
+            Enumerated_Domain_value: 101
+            Enumerated_Domain_Definition: Crisfield, MD.-VA.
+            Enumerated_Domain_value: 102
+            Enumerated_Domain_Definition: Saxis, VA.-MD.
+            Enumerated_Domain_value: 103
+            Enumerated_Domain_Definition: Dunnsville, VA.
+            Enumerated_Domain_value: 104
+            Enumerated_Domain_Definition: Morattico, VA.
+            Enumerated_Domain_value: 105
+            Enumerated_Domain_Definition: Lively, VA.
+            Enumerated_Domain_value: 106
+            Enumerated_Domain_Definition: Reedville, VA.
+            Enumerated_Domain_value: 107
+            Enumerated_Domain_Definition: Tangier Island, VA.
+            Enumerated_Domain_value: 108
+            Enumerated_Domain_Definition: Chesconessex, VA.
+            Enumerated_Domain_value: 109
+            Enumerated_Domain_Definition: Parksley, VA.
+            Enumerated_Domain_value: 110
+            Enumerated_Domain_Definition: Urbanna, VA.
+            Enumerated_Domain_value: 111
+            Enumerated_Domain_Definition: Irvington, VA.
+            Enumerated_Domain_value: 112
+            Enumerated_Domain_Definition: Fleets Bay, VA.
+            Enumerated_Domain_value: 113
+            Enumerated_Domain_Definition: Nandua Creek, VA.
+            Enumerated_Domain_value: 114
+            Enumerated_Domain_Definition: Pungoteague, VA.
+            Enumerated_Domain_value: 115
+            Enumerated_Domain_Definition: West Point, VA.
+            Enumerated_Domain_value: 116
+            Enumerated_Domain_Definition: Saluda, VA.
+            Enumerated_Domain_value: 117
+            Enumerated_Domain_Definition: Wilton, VA.
+            Enumerated_Domain_value: 118
+            Enumerated_Domain_Definition: Deltaville, VA.
+            Enumerated_Domain_value: 119
+            Enumerated_Domain_Definition: Jamesville, VA.
+            Enumerated_Domain_value: 120
+            Enumerated_Domain_Definition: Toano, VA.
+            Enumerated_Domain_value: 121
+            Enumerated_Domain_Definition: Gressitt, VA.
+            Enumerated_Domain_value: 122
+            Enumerated_Domain_Definition: Ware Neck, VA.
+            Enumerated_Domain_value: 123
+            Enumerated_Domain_Definition: Mathews, VA.
+            Enumerated_Domain_value: 124
+            Enumerated_Domain_Definition: Franktown, VA.
+            Enumerated_Domain_value: 125
+            Enumerated_Domain_Definition: Westover, VA.
+            Enumerated_Domain_value: 126
+            Enumerated_Domain_Definition: Charles City, VA.
+            Enumerated_Domain_value: 127
+            Enumerated_Domain_Definition: Brandon, VA.
+            Enumerated_Domain_value: 128
+            Enumerated_Domain_Definition: Norge, VA.
+            Enumerated_Domain_value: 129
+            Enumerated_Domain_Definition: Williamsburg, VA.
+            Enumerated_Domain_value: 130
+            Enumerated_Domain_Definition: Clay Bank, VA.
+            Enumerated_Domain_value: 131
+            Enumerated_Domain_Definition: Achilles, VA.
+            Enumerated_Domain_value: 132
+            Enumerated_Domain_Definition: New Point Comfort, VA.
+            Enumerated_Domain_value: 133
+            Enumerated_Domain_Definition: Cape Charles, VA.
+            Enumerated_Domain_value: 134
+            Enumerated_Domain_Definition: Cheriton, VA.
+            Enumerated_Domain_value: 135
+            Enumerated_Domain_Definition: Savedge, VA.
+            Enumerated_Domain_value: 136
+            Enumerated_Domain_Definition: Claremont, VA.
+            Enumerated_Domain_value: 137
+            Enumerated_Domain_Definition: Surry, VA.
+            Enumerated_Domain_value: 138
+            Enumerated_Domain_Definition: Hog Island, VA.
+            Enumerated_Domain_value: 139
+            Enumerated_Domain_Definition: Yorktown, VA.
+            Enumerated_Domain_value: 140
+            Enumerated_Domain_Definition: Poquoson West, VA.
+            Enumerated_Domain_value: 141
+            Enumerated_Domain_Definition: Poquoson East, VA.
+            Enumerated_Domain_value: 142
+            Enumerated_Domain_Definition: Elliotts Creek, VA.
+            Enumerated_Domain_value: 143
+            Enumerated_Domain_Definition: Townsend, VA.
+            Enumerated_Domain_value: 144
+            Enumerated_Domain_Definition: Bacons Castle, VA.
+            Enumerated_Domain_value: 145
+            Enumerated_Domain_Definition: Mulberry Island, VA.
+            Enumerated_Domain_value: 146
+            Enumerated_Domain_Definition: Newport News North, VA.
+            Enumerated_Domain_value: 147
+            Enumerated_Domain_Definition: Hampton, VA.
+            Enumerated_Domain_value: 148
+            Enumerated_Domain_Definition: Benns Church, VA.
+            Enumerated_Domain_value: 149
+            Enumerated_Domain_Definition: Newport News South, VA.
+            Enumerated_Domain_value: 150
+            Enumerated_Domain_Definition: Norfolk North, VA.
+            Enumerated_Domain_value: 151
+            Enumerated_Domain_Definition: Little Creek, VA.
+            Enumerated_Domain_value: 152
+            Enumerated_Domain_Definition: Cape Henry, VA.
+            Enumerated_Domain_value: 153
+            Enumerated_Domain_Definition: Chuckatuck, VA.
+            Enumerated_Domain_value: 154
+            Enumerated_Domain_Definition: Bowers Hill, VA.
+            Enumerated_Domain_value: 155
+            Enumerated_Domain_Definition: Norfolk South, VA.
+            Enumerated_Domain_value: 156
+            Enumerated_Domain_Definition: Kempsville, VA.
+            Enumerated_Domain_value: 157
+            Enumerated_Domain_Definition: Princess Anne, VA.
+            Enumerated_Domain_value: 158
+            Enumerated_Domain_Definition: Wye Mills, MD.
+            Enumerated_Domain_value: 159
+            Enumerated_Domain_Definition: Bristol, MD.
+            Enumerated_Domain_value: 160
+            Enumerated_Domain_Definition: Fowling Creek, MD.
+            Enumerated_Domain_value: 161
+            Enumerated_Domain_Definition: Port Tobacco, MD.
+            Enumerated_Domain_value: 162
+            Enumerated_Domain_Definition: Charlotte Hall, MD.
+            Enumerated_Domain_value: 163
+            Enumerated_Domain_Definition: Mardela Springs, MD.
+            Enumerated_Domain_value: 164
+            Enumerated_Domain_Definition: Wetipquin, MD.
+            Enumerated_Domain_value: 165
+            Enumerated_Domain_Definition: Selbyville, MD.
+            Enumerated_Domain_value: 166
+            Enumerated_Domain_Definition: Assawoman Bay, MD.
+            Enumerated_Domain_value: 167
+            Enumerated_Domain_Definition: Berlin, MD.
+            Enumerated_Domain_value: 168
+            Enumerated_Domain_Definition: Ocean City, MD.
+            Enumerated_Domain_value: 169
+            Enumerated_Domain_Definition: Public Landing, MD.
+            Enumerated_Domain_value: 170
+            Enumerated_Domain_Definition: Tingles Island, MD.
+            Enumerated_Domain_value: 171
+            Enumerated_Domain_Definition: Girdle Tree, MD.-VA.
+            Enumerated_Domain_value: 172
+            Enumerated_Domain_Definition: Boxiron, MD.-VA.
+            Enumerated_Domain_value: 173
+            Enumerated_Domain_Definition: Whittington Point, MD.-VA.
+            Enumerated_Domain_value: 174
+            Enumerated_Domain_Definition: Chincoteague West, VA.
+            Enumerated_Domain_value: 175
+            Enumerated_Domain_Definition: Chincoteague East, VA.
+            Enumerated_Domain_value: 176
+            Enumerated_Domain_Definition: Anacostia, D.C.-MD.
+            Enumerated_Domain_value: 177
+            Enumerated_Domain_Definition: East of New Point, VA.
+            Enumerated_Domain_value: 179
+            Enumerated_Domain_Definition: Goose Island, VA.
+      Attribute:
+        Attribute_Label: CBPSEG
+        Attribute_Definition: Chesapeake Bay Program segment which contains 
+          the portion of Tier I
+        Attribute_Definition_Source:  CBPSEGS98
+        Attribute_Domain_Values:
+          Codeset_Domain:
+            Codeset_Name: Chesapeake Bay Program Segment abbreviations ("CHIPH"
+              has been added to identify Chincoteague Bay)
+            Codeset_Source: Chesapeake Bay Program
+      Attribute:
+        Attribute_Label: Zone
+        Attribute_Definition: Bay zone which contains the portion of Tier I
+        Attribute_Definition_Source:  CBPSEGS98
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_value: 1
+	    Enumerated_Domain_Definition: CB1TF, NORTF, ELKOH, C&DOH,
+	      BOHOH, SASOH, CB2OH, CB3MH, BSHOH, GUNOH, MIDOH, BACOH,
+	      PATMH, CHSMH, CHSOH, CHSTF, MAGMH (Upper Bay)
+            Enumerated_Domain_value: 2
+	    Enumerated_Domain_Definition: SEVMH, SOUMH, RHDMH, WSTMH,
+	      EASMH, CB4MH, CHOMH1, CHOMH2, CHOOH, CHOTF, LCHMH, PAXMH,
+	      PAXOH, PAXTF, HNGMH, FSBMH, NANMH, NANOH, NANTF, WICMH,
+	      MANMH, BIGMH, POCMH, POCOH, POCTF, TANMH, POTMH, POTOH,
+	      POTTF, MATTF, PISTF, CB5MH (Middle Bay)
+            Enumerated_Domain_value: 3
+ 	   Enumerated_Domain_Definition: RPPMH, CRRMH, RPPOH, RPPTF,
+	     PIAMH, CB6PH, CB7PH, MOBPH, YRKMH, YRKPH, MPNOH, MPNTF,
+	     PMKOH, PMKTF, JMSPH, ELIPH, SBEMH, JMSMH, JMSOH, CHKOH,
+	     JMSTF, APPTF, LYNPH, CB8PH (Lower Bay)
+           Enumerated_Domain_value: 4
+           Enumerated_Domain_Definition: CHIPH (Chincoteague Bay)
+
+Distribution_Information:
+
+    Distributor:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: Virginia Institute of Marine Science
+        Contact_Position: SAV Data Administrator
+        Contact_Address: Gloucester Point, Virginia 23062
+        Contact_Phone: 804/684-7088
+        Contact_Email: savadmin@vims.edu
+    Resource_Description: Chesapeake Bay Tier I Coverage
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ARCE
+          Format_Version_Number: 7.0.4
+          Format_Specification: Coverage
+        Digital_Transfer_Option:
+          Offline_Option:
+            Offline_Media: 3.5" HD Diskette
+            Recording_Format:
+              ASCII
+          Online_Option:
+            Access_Instructions:
+              By prior arrangement the data can be placed on an anonymous 
+              ftp site for on-line access.  Contact savadmin@vims.edu for
+              details.
+    
+Metadata_Reference_Information:
+
+    Metadata_Date: 19990618
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: Virginia Institute of Marine Science
+        Contact_Position: SAV Data Administrator
+        Contact_Address: Gloucester Point, Virginia 23062
+        Contact_Phone: 804/684-7088
+        Contact_Email: savadmin@vims.edu
