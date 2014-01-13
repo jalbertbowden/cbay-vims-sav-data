@@ -1,0 +1,2769 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="FGDC_Plus.xsl"?>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Virginia Institute of Marine Science</origin>
+        <pubdate>20111031</pubdate>
+        <title>Chesapeake Bay SAV Annual Monitoring GIS Dataset, 2010</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.vims.edu/bio/sav</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The 2010 Chesapeake Bay SAV Coverage was mapped from 1:24,000 black and white aerial photography to assess water quality in the Bay. Each area of SAV was interpreted from the rectified photography and classified into one of four density classes by the percentage of cover. The SAV beds were entered into an SDE GIS fetaure class using the quality control procedures documented below. The dataset contains all SAV areas that were identified from the areas flown. Some areas that are presumed to contain no SAV were not flown. Some small beds, particularly along narrow tributaries may not have been distinguishable on the aerial photography.</abstract>
+      <purpose>The annual SAV aerial photographic monitoring program provides a comprehensive and accurate measure of change in SAV relative abundance that has been used to link improving water quality to increases in bay living resources.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20100507</begdate>
+          <enddate>20101010</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-77.500</westbc>
+        <eastbc>-75.000</eastbc>
+        <northbc>39.750</northbc>
+        <southbc>36.500</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>SAV</themekey>
+        <themekey>vegetative surface cover</themekey>
+        <themekey>submerged aquatic vegetation</themekey>
+      </theme>
+      <place>
+        <placekt>U.S. Department of Commerce, 1977, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions (Federal Information Processing Standard 10-3):Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>US</placekey>
+      </place>
+      <place>
+        <placekt>U.S. Department of Commerce, 1987, Codes for the identification of the States, the District of Columbia and the outlying areas of The United States, and associated areas (Federal Information Processing Standard 5-2):Washington ,D. C., National Institute of Standards and Technology.</placekt>
+        <placekey>10</placekey>
+        <placekey>51</placekey>
+        <placekey>24</placekey>
+      </place>
+      <place>
+        <placekt>U.S. Postal State Abbreviations</placekt>
+        <placekey>DE</placekey>
+        <placekey>MD</placekey>
+        <placekey>VA</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Chesapeake Bay</placekey>
+        <placekey>Chincoteague Bay</placekey>
+      </place>
+    </keywords>
+    <accconst>Restriction Code: other restrictions; Other Constraints: Access constraints: None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Virginia Institute of Marine Science</cntorg>
+        </cntorgp>
+        <cntpos>SAV Data Administrator</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>Rt. 1208, Greate RD</address>
+          <city>Gloucester Point</city>
+          <state>VA</state>
+          <postal>23062</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>804/684-7088</cntvoice>
+        <cntemail>savadmin@vims.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>SAV Ecology, Monitoring, &amp; Restoration Program, Virginia Institute of Marine Science</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The density attribute for all beds has been reviewed by an experienced photo-interpreter for correctness and consistency with analysis for prior years.</attraccr>
+    </attracc>
+    <logic>The GIS data has been cross-checked against data tables and ground observations.</logic>
+    <complete>The dataset contains all SAV areas that were identified from the areas flown.  Some areas that are presumed to contain no SAV were not flown. Some small beds, particularly along narrow tributaries may not have been distinguishable on the aerial photography.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizontal positional accuracy is based upon orthorectification of scanned aerial photography using USGS digital orthothophoto quadrangles for horizontal control and USGS 30m DEM data as vertical control. Horizontal RMSE for individual flightlines was held to less than four meters.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Airphotographics Inc</origin>
+            <pubdate>20101010</pubdate>
+            <title>2010 SAV Aerial photography</title>
+            <geoform>document</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>None</typesrc>
+        <srccitea>2010 SAV Aerial photography</srccitea>
+        <srccontr>2010 SAV Aerial photography
+9x9 inch b&amp;w negatives
+5/7/2010 - 10/10/2010</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Virginia Institute of Marine Science</origin>
+            <pubdate>20111215</pubdate>
+            <title>2009 SAV Orthophoto Mosaics</title>
+            <geoform>document</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>None</typesrc>
+        <srccitea>2009 SAV Orthophoto Mosaics</srccitea>
+        <srccontr>2009 SAV Orthophoto Mosaics
+5/7/2010 - 10/10/2010</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Virginia Instute of Marine Science</origin>
+            <pubdate>20081006</pubdate>
+            <title>State boundaries adjusted to include shore areas</title>
+            <geoform>map</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>State boundaries adjusted to include shore areas</srccitea>
+        <srccontr>State boundaries adjusted to include shore areas</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Virginia Institute of Marine Science</origin>
+            <pubdate>20081006</pubdate>
+            <title>New 2004 Chesapeake Bay Program Segments adjusted to include land areas</title>
+            <geoform>map</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>New 2004 Chesapeake Bay Program Segments adjusted to include land areas</srccitea>
+        <srccontr>New 2004 Chesapeake Bay Program Segments adjusted to include land areas</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Scanned aerial photographs were georectified and orthographically corrected to produce a seamless series of aerial mosaics following a set of standard operating procedures (SOP). Leica LPS image processing software was used to orthographically correct the individual flight lines using a bundle block solution. Camera lens calibration data was matched to the image location of fiducial points to define the interior camera model. Control points from USGS DOQQ images provide the exterior control, which is enhanced by a large number of image-matching tie points produced automatically by the software. The exterior and interior models were combined with a 30-meter resolution digital elevation model (DEM) from the USGS National Elevation Dataset (NED) to produce an orthophoto for each aerial photograph.
+
+The orthophotographs that cover each USGS 7.5 minute quadrangle area were adjusted to approximately uniform brightness and contrast and were mosaicked together using the Leica GeoSystems ERDAS Imagine mosaic tool to produce a one-meter resolution quad-sized mosaic.</procdesc>
+        <procdate>20101215</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The SAV beds were interpreted on-screen from the orthophoto mosaics using ESRI ArcGIS software. The identification and delineation of SAV beds by photo interpretation utilized all available information including:  knowledge of aquatic grass signatures on film, distribution of SAV in 2010 from aerial photography, 2010 ground survey information, and aerial site surveys.
+
+In addition to delineating SAV bed boundaries, an estimate of SAV density within each bed was made by visually comparing each bed to an enlarged crown density scale similar to those developed for estimating crown cover of forest trees from aerial photography. Bed density was categorized into one of four classes based on a subjective comparison with the density scale. These were: 1, very sparse (&lt;10% coverage); 2, sparse (10-40%); 3, moderate (40-70%); or 4, dense (70-100%). Either the entire bed or subsections within the bed were assigned a bed density number (1 to 4) corresponding to the above density classes. Some beds were subsectioned to delineate variations of SAV density. Additionally, each distinct SAV bed or bed subsection was assigned an identifying one or two letter designation unique to its map. Coupled with the appropriate SAV map number and year of photography, these letter designations uniquely identify each SAV bed in the database.</procdesc>
+        <procdate>20110315</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The bay segments were overlayed on the dataset by VIMS staff, dividing any beds that fell into multiple segments.
+</procdesc>
+        <procdate>20110315</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>he state boundaries were overlayed on the dataset by VIMS staff, dividing any beds that fell into multiple states.
+</procdesc>
+        <procdate>20110315</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>4448</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 18N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-75.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>beds10</enttypl>
+        <enttypd>VIMS</enttypd>
+        <enttypds>VIMS - SAV Program</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QUADID</attrlabl>
+        <attrdef>Identification number of USGS quads that contains the SAV bed</attrdef>
+        <attrdefs>2009 Distribution of SAV in the Chesapeake Bay, Final Report to U.S. EPA, Chesapeake Bay Program</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Conowingo Dam, MD.-PA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Aberdeen, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Havre de Grace, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>North East, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Elkton, MD.-DEL.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>White Marsh, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Edgewood, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Perryman, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Spesutie, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Earleville, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Cecilton, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Baltimore East, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>Middle River, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>14</edomv>
+            <edomvd>Gunpowder Neck, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>15</edomv>
+            <edomvd>Hanesville, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>16</edomv>
+            <edomvd>Betterton, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>17</edomv>
+            <edomvd>Galena, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>18</edomv>
+            <edomvd>Curtis Bay, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>19</edomv>
+            <edomvd>Sparrows Point, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>20</edomv>
+            <edomvd>Swan Point, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>21</edomv>
+            <edomvd>Rock Hall, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>Chestertown, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>23</edomv>
+            <edomvd>Round Bay, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>24</edomv>
+            <edomvd>Gibson Island, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>25</edomv>
+            <edomvd>Love Point, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>26</edomv>
+            <edomvd>Langford Creek, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>27</edomv>
+            <edomvd>Centreville, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>28</edomv>
+            <edomvd>Washington West, MD.-D.C.-VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>29</edomv>
+            <edomvd>Washington East, D.C.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>30</edomv>
+            <edomvd>South River, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>31</edomv>
+            <edomvd>Annapolis, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>32</edomv>
+            <edomvd>Kent Island, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>33</edomv>
+            <edomvd>Queenstown, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>34</edomv>
+            <edomvd>Alexandria, VA.-D.C.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>35</edomv>
+            <edomvd>Deale, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>36</edomv>
+            <edomvd>Claiborne, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>37</edomv>
+            <edomvd>St. Michaels, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>38</edomv>
+            <edomvd>Easton, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>39</edomv>
+            <edomvd>Fort Belvoir, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>40</edomv>
+            <edomvd>Mt. Vernon, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>41</edomv>
+            <edomvd>Lower Marlboro, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>42</edomv>
+            <edomvd>North Beach, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>43</edomv>
+            <edomvd>Tilghman, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>44</edomv>
+            <edomvd>Oxford, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>45</edomv>
+            <edomvd>Trappe, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>46</edomv>
+            <edomvd>Preston, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>47</edomv>
+            <edomvd>Quantico, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>48</edomv>
+            <edomvd>Indian Head, MD.- VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>49</edomv>
+            <edomvd>Benedict, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>50</edomv>
+            <edomvd>Prince Frederick, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>51</edomv>
+            <edomvd>Hudson, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>52</edomv>
+            <edomvd>Church Creek, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>53</edomv>
+            <edomvd>Cambridge, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>54</edomv>
+            <edomvd>East New Market, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>55</edomv>
+            <edomvd>Widewater, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>56</edomv>
+            <edomvd>Nanjemoy, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>57</edomv>
+            <edomvd>Mathias Point, MD.-VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>58</edomv>
+            <edomvd>Popes Creek, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>59</edomv>
+            <edomvd>Mechanicsville, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>60</edomv>
+            <edomvd>Broomes Island, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>61</edomv>
+            <edomvd>Cove Point, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>62</edomv>
+            <edomvd>Taylors Island, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>63</edomv>
+            <edomvd>Golden Hill, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>64</edomv>
+            <edomvd>Passapatanzy, MD.-VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>65</edomv>
+            <edomvd>King George, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>66</edomv>
+            <edomvd>Dahlgren, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>67</edomv>
+            <edomvd>Colonial Beach North, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>68</edomv>
+            <edomvd>Rock Point, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>69</edomv>
+            <edomvd>Leonardtown, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>70</edomv>
+            <edomvd>Hollywood, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>71</edomv>
+            <edomvd>Solomons Island, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>72</edomv>
+            <edomvd>Barren Island, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>73</edomv>
+            <edomvd>Honga, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>74</edomv>
+            <edomvd>Wingate, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>75</edomv>
+            <edomvd>Nanticoke, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>76</edomv>
+            <edomvd>Colonial Beach South, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>77</edomv>
+            <edomvd>Stratford Hall, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>78</edomv>
+            <edomvd>St. Clements Island, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>79</edomv>
+            <edomvd>Piney Point, MD.-VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>80</edomv>
+            <edomvd>St. Mary's City, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>81</edomv>
+            <edomvd>Point No Point, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>82</edomv>
+            <edomvd>Richland Point, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>83</edomv>
+            <edomvd>Bloodsworth Island, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>84</edomv>
+            <edomvd>Deal Island, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>85</edomv>
+            <edomvd>Monie, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>86</edomv>
+            <edomvd>Champlain, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>87</edomv>
+            <edomvd>Machodoc, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>88</edomv>
+            <edomvd>Kinsale, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>89</edomv>
+            <edomvd>St. George Island, MD.-VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>90</edomv>
+            <edomvd>Point Lookout, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>91</edomv>
+            <edomvd>Kedges Straits, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>92</edomv>
+            <edomvd>Terrapin Sand Point, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>93</edomv>
+            <edomvd>Marion, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>94</edomv>
+            <edomvd>Mount Landing, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>95</edomv>
+            <edomvd>Tappahannock, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>96</edomv>
+            <edomvd>Lottsburg, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>97</edomv>
+            <edomvd>Heathsville, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>98</edomv>
+            <edomvd>Burgess, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>99</edomv>
+            <edomvd>Ewell, MD.-VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>100</edomv>
+            <edomvd>Great Fox Island, MD.-VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>101</edomv>
+            <edomvd>Crisfield, MD.-VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>102</edomv>
+            <edomvd>Saxis, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>103</edomv>
+            <edomvd>Dunnsville, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>104</edomv>
+            <edomvd>Morattico, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>105</edomv>
+            <edomvd>Lively, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>106</edomv>
+            <edomvd>Reedville, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>107</edomv>
+            <edomvd>Tangier Island, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>108</edomv>
+            <edomvd>Chesconessex, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>109</edomv>
+            <edomvd>Parksley, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>110</edomv>
+            <edomvd>Urbanna, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>111</edomv>
+            <edomvd>Irvington, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>112</edomv>
+            <edomvd>Fleets Bay, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>113</edomv>
+            <edomvd>Nandua Creek, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>114</edomv>
+            <edomvd>Pungoteague, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>115</edomv>
+            <edomvd>West Point, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>116</edomv>
+            <edomvd>Saluda, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>117</edomv>
+            <edomvd>Wilton, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>118</edomv>
+            <edomvd>Deltaville, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>119</edomv>
+            <edomvd>Jamesville, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>120</edomv>
+            <edomvd>Toano, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>121</edomv>
+            <edomvd>Gressitt, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>122</edomv>
+            <edomvd>Ware Neck, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>123</edomv>
+            <edomvd>Mathews, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>124</edomv>
+            <edomvd>Franktown, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>125</edomv>
+            <edomvd>Westover, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>126</edomv>
+            <edomvd>Charles City, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>127</edomv>
+            <edomvd>Brandon, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>128</edomv>
+            <edomvd>Norge, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>129</edomv>
+            <edomvd>Williamsburg, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>130</edomv>
+            <edomvd>Clay Bank, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>131</edomv>
+            <edomvd>Achilles, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>132</edomv>
+            <edomvd>New Point Comfort, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>133</edomv>
+            <edomvd>Cape Charles, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>134</edomv>
+            <edomvd>Cheriton, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>135</edomv>
+            <edomvd>Savedge, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>136</edomv>
+            <edomvd>Claremont, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>137</edomv>
+            <edomvd>Surry, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>138</edomv>
+            <edomvd>Hog Island, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>139</edomv>
+            <edomvd>Yorktown, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>140</edomv>
+            <edomvd>Poquoson West, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>141</edomv>
+            <edomvd>Poquoson East, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>142</edomv>
+            <edomvd>Elliotts Creek, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>143</edomv>
+            <edomvd>Townsend, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>144</edomv>
+            <edomvd>Bacons Castle, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>145</edomv>
+            <edomvd>Mulberry Island, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>146</edomv>
+            <edomvd>Newport News North, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>147</edomv>
+            <edomvd>Hampton, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>148</edomv>
+            <edomvd>Benns Church, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>149</edomv>
+            <edomvd>Newport News South, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>150</edomv>
+            <edomvd>Norfolk North, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>151</edomv>
+            <edomvd>Little Creek, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>152</edomv>
+            <edomvd>Cape Henry, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>153</edomv>
+            <edomvd>Chuckatuck, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>154</edomv>
+            <edomvd>Bowers Hill, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>155</edomv>
+            <edomvd>Norfolk South, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>156</edomv>
+            <edomvd>Kempsville, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>157</edomv>
+            <edomvd>Princess Anne, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>158</edomv>
+            <edomvd>Wye Mills, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>159</edomv>
+            <edomvd>Bristol, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>160</edomv>
+            <edomvd>Fowling Creek, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>161</edomv>
+            <edomvd>Port Tobacco, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>162</edomv>
+            <edomvd>Charlotte Hall, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>163</edomv>
+            <edomvd>Mardela Springs, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>164</edomv>
+            <edomvd>Wetipquin, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>165</edomv>
+            <edomvd>Selbyville, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>166</edomv>
+            <edomvd>Assawoman Bay, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>167</edomv>
+            <edomvd>Berlin, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>168</edomv>
+            <edomvd>Ocean City, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>169</edomv>
+            <edomvd>Public Landing, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>170</edomv>
+            <edomvd>Tingles Island, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>171</edomv>
+            <edomvd>Girdle Tree, MD.-VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>172</edomv>
+            <edomvd>Boxiron, MD.-VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>173</edomv>
+            <edomvd>Whittington Point, MD.-VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>174</edomv>
+            <edomvd>Chincoteague West, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>175</edomv>
+            <edomvd>Chincoteague East, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>176</edomv>
+            <edomvd>Anacostia, D.C.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>177</edomv>
+            <edomvd>East of New Point, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>178</edomv>
+            <edomvd>Bethel Beach, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>179</edomv>
+            <edomvd>Goose Island, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>180</edomv>
+            <edomvd>Horseshoe Point, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>181</edomv>
+            <edomvd>Bowie, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>182</edomv>
+            <edomvd>Smith Point, VA.-MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>183</edomv>
+            <edomvd>East of Reedville, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>184</edomv>
+            <edomvd>Cobb Island, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>185</edomv>
+            <edomvd>Suffolk, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>186</edomv>
+            <edomvd>Fisherman's Island, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>187</edomv>
+            <edomvd>Exmore, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>188</edomv>
+            <edomvd>Kingston, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>189</edomv>
+            <edomvd>Eden, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>190</edomv>
+            <edomvd>Rhodesdale, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>191</edomv>
+            <edomvd>Sharptown, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>192</edomv>
+            <edomvd>Hobbs, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>193</edomv>
+            <edomvd>Church Hill, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>194</edomv>
+            <edomvd>Lancaster, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>195</edomv>
+            <edomvd>Gloucester, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>196</edomv>
+            <edomvd>Princess Anne, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>197</edomv>
+            <edomvd>Haynesville, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>198</edomv>
+            <edomvd>Hallwood, VA. - MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>199</edomv>
+            <edomvd>Millington, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>200</edomv>
+            <edomvd>Rollins Fork, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>201</edomv>
+            <edomvd>Loretto, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>202</edomv>
+            <edomvd>Pocomoke City, MD. -  VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>203</edomv>
+            <edomvd>Diputanta North, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>204</edomv>
+            <edomvd>Hopewell, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>205</edomv>
+            <edomvd>Chester, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>206</edomv>
+            <edomvd>Drewrys Bluff, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>207</edomv>
+            <edomvd>Dutch Gap, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>208</edomv>
+            <edomvd>Roxbury, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>209</edomv>
+            <edomvd>Providence Forge, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>210</edomv>
+            <edomvd>Walkers, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>211</edomv>
+            <edomvd>Richmond, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>212</edomv>
+            <edomvd>Ship Shoal Inlet, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>213</edomv>
+            <edomvd>Great Machipongo Inlet, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>214</edomv>
+            <edomvd>Nassawadox, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>215</edomv>
+            <edomvd>Quinbly Inlet, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>216</edomv>
+            <edomvd>Wachapreague, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>217</edomv>
+            <edomvd>Accomax, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>218</edomv>
+            <edomvd>Metompkin Inlet, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>219</edomv>
+            <edomvd>Bloxom, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>220</edomv>
+            <edomvd>Wallops Island, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>221</edomv>
+            <edomvd>Deep Creek, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>222</edomv>
+            <edomvd>Fentress, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>223</edomv>
+            <edomvd>Pleasant Ridge, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>224</edomv>
+            <edomvd>Creeds, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>225</edomv>
+            <edomvd>King William, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>226</edomv>
+            <edomvd>King &amp; Queen Courthouse, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>227</edomv>
+            <edomvd>Truhart, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>228</edomv>
+            <edomvd>Tunstall, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>229</edomv>
+            <edomvd>New Kent, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>230</edomv>
+            <edomvd>Manquin, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>231</edomv>
+            <edomvd>Port Royal, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>232</edomv>
+            <edomvd>Wachapreague East, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>233</edomv>
+            <edomvd>Aylett, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>234</edomv>
+            <edomvd>Snow Hill, MD.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>235</edomv>
+            <edomvd>Montross, VA.</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BEDID</attrlabl>
+        <attrdef>Two-letter SAV bed identifier.</attrdef>
+        <attrdefs>VIMS SAV</attrdefs>
+        <attrdomv>
+          <udom>Labels from "A" to "ZZ"</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DENSITY</attrlabl>
+        <attrdef>SAV bed density classification. A ZERO VALUE IN THIS FIELD SIGNIFIES A LAND AREA OR ANY OTHER NON-SAV AREA THAT IS COMPLETELY SURROUNDED BY SAV.THESE POLYGONS SHOULD BE EXCLUDED FROM SAV AREA COMPUTATIONS.</attrdef>
+        <attrdefs>VIMS SAV</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No SAV</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>0 - 10% cover (very sparse)</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>10 - 40% cover (sparse)</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>40 - 70% cover (moderate)</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>70 - 100% cover (dense)</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BEDLABEL</attrlabl>
+        <attrdef>The BedID and Density combined</attrdef>
+        <attrdefs>VIMS SAV</attrdefs>
+        <attrdomv>
+          <udom>A two-letter label and single digit density</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZONE_</attrlabl>
+        <attrdef>Chesapeake Bay Program Zone</attrdef>
+        <attrdefs>VIMS SAV</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>CB1TF1,CB1TF2, NORTF, ELKOH1, ELK0H2, C&amp;DOH, BOHOH, SASOH1, SAVOH2, CB2OH, CB3MH, BSHOH, GUNOH1, GUNOH2, MIDOH, BACOH, PATMH,CHSMH, CHSOH, CHSTF, MAGMH (Upper Bay)</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>SEVMH, SOUMH, RHDMH, WSTMH, EASMH, CB4MH, CHOMH1, CHOMH2, CHOOH, CHOTF, LCHMH, PAXMH1, PAXMH2, PAXMH3, PAXMH4, PAXMH5, PAXMH6, PAXOH, PAXTF, HNGMH, FSBMH, NANMH, NANOH, NANTF, WICMH, MANMH1, MANMH2, BIGMH1, BIGMH2, POCMH, POCOH, POCTF, TANMH1, TANMH2, POTMH, POTOH1, POTOH2, POTOH3, POTTF, MATTF, PISTF, CB5MH (Middle Bay)</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>RPPMH, CRRMH, RPPOH, RPPTF, PIAMH, CB6PH, CB7PH, MOBPH, YRKMH, YRKPH, MPNOH, MPNTF, PMKOH, PMKTF, JMSPH, ELIPH, SBEMH, JMSMH, JMSOH, CHKOH, JMSTF1, JMSTF2, APPTF, LYNPH, CB8PH (Lower Bay)</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>AAWPH, CHNPH, IOWPH, SPXPH, SVCPH (Delmarva Peninsula Coastal Bays)</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CBPSEG</attrlabl>
+        <attrdef>Chesapeake Bay Program Segment abbreviations ("AAWPH", "IOWPH", "SPXPH","CHNPH", and "SVCPH" have been added to identify the Delmarva coastal bays)</attrdef>
+        <attrdefs>Chesapeake Bay Program</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>CB1TF1</edomv>
+            <edomvd>Northern Chesapeake Bay Segment 1</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CB1TF2</edomv>
+            <edomvd>Northern Chesapeake Bay Segment 2</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NORTF</edomv>
+            <edomvd>Northeast River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ELKOH1</edomv>
+            <edomvd>Elk River Segment 1</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ELKOH2</edomv>
+            <edomvd>Elk River Segment 2</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BOHOH</edomv>
+            <edomvd>Bohemia River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>C&amp;DOH</edomv>
+            <edomvd>Chesapeake &amp; Delaware Canal</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CB2OH</edomv>
+            <edomvd>Upper Chesapeake Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SASOH1</edomv>
+            <edomvd>Sassafras River Segment 1</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SASOH2</edomv>
+            <edomvd>Sassafras River Segment 2</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BSHOH</edomv>
+            <edomvd>Bush River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>GUNOH1</edomv>
+            <edomvd>Gunpowder River Segment 1</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>GUNOH2</edomv>
+            <edomvd>Gunpowder River Segment 2</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MIDOH</edomv>
+            <edomvd>Middle River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BACOH</edomv>
+            <edomvd>Back River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CB3MH</edomv>
+            <edomvd>Upper Central Chesapeake Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PATMH</edomv>
+            <edomvd>Patapsco River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MAGMH</edomv>
+            <edomvd>Magothy River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CHSMH</edomv>
+            <edomvd>Lower Chester River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CHSOH</edomv>
+            <edomvd>Middle Chester River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CHSTF</edomv>
+            <edomvd>Upper Chester River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CB4MH</edomv>
+            <edomvd>Middle Central Chesapeake Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>EASMH</edomv>
+            <edomvd>Eastern Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CHOMH1</edomv>
+            <edomvd>Mouth of the Choptank River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CHOMH2</edomv>
+            <edomvd>Lower Choptank River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CHOOH</edomv>
+            <edomvd>Middle Choptank River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CHOTF</edomv>
+            <edomvd>Upper Choptank River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LCHMH</edomv>
+            <edomvd>Little Choptank River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SEVMH</edomv>
+            <edomvd>Severn River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SOUMH</edomv>
+            <edomvd>South River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>RHDMH</edomv>
+            <edomvd>Rhode River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WSTMH</edomv>
+            <edomvd>West River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CB5MH</edomv>
+            <edomvd>Lower Central Chesapeake Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HNGMH</edomv>
+            <edomvd>Honga River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FSBMH</edomv>
+            <edomvd>Fishing Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NANMH</edomv>
+            <edomvd>Lower Nanticoke River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NANOH</edomv>
+            <edomvd>Middle Nanticoke River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NANTF</edomv>
+            <edomvd>Upper Nanticoke River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WICMH</edomv>
+            <edomvd>Wicomico River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TANMH1</edomv>
+            <edomvd>Tangier Sound Segment 1</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TANMH2</edomv>
+            <edomvd>Tangier Sound Segment 2</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MANMH1</edomv>
+            <edomvd>Manokin River Segment 1</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MANMH2</edomv>
+            <edomvd>Manokin River Segment 2</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BIGMH1</edomv>
+            <edomvd>Big Annemessex River Segment 1</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>BIGMH2</edomv>
+            <edomvd>Big Annemessex River Segment 2</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>POCMH</edomv>
+            <edomvd>Lower Pocomoke River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>POCOH</edomv>
+            <edomvd>Middle Pocomoke River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>POCTF</edomv>
+            <edomvd>Upper Pocomoke River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PAXMH1</edomv>
+            <edomvd>Lower Patuxent River Segment 1</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PAXMH2</edomv>
+            <edomvd>Lower Patuxent River Segment 2</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PAXMH3</edomv>
+            <edomvd>Lower Patuxent River Segment 3</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PAXMH4</edomv>
+            <edomvd>Lower Patuxent River Segment 4</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PAXMH5</edomv>
+            <edomvd>Lower Patuxent River Segment 5</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PAXMH6</edomv>
+            <edomvd>Lower Patuxent River Segment 6</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PAXOH</edomv>
+            <edomvd>Middle Patuxent River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PAXTF</edomv>
+            <edomvd>Upper Patuxent River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WBRTF</edomv>
+            <edomvd>Western Branch of the Patuxent River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>POTMH</edomv>
+            <edomvd>Lower Potomac River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>POTOH1</edomv>
+            <edomvd>Middle Potomac River Segment 1</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>POTOH2</edomv>
+            <edomvd>Middle Potomac River Segment 2</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>POTOH3</edomv>
+            <edomvd>Middle Potomac River Segment 3</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>POTTF</edomv>
+            <edomvd>Upper Potomac River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MATTF</edomv>
+            <edomvd>Mattawoman Creek</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PISTF</edomv>
+            <edomvd>Piscataway Creek</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ANATF</edomv>
+            <edomvd>Anacostia River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CB6PH</edomv>
+            <edomvd>Western Lower Chesapeake Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CB7PH</edomv>
+            <edomvd>Eastern Lower Chesapeake Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>RPPMH</edomv>
+            <edomvd>Lower Rappahannock River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CRRMH</edomv>
+            <edomvd>Corrotoman River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>RPPOH</edomv>
+            <edomvd>Middle Rappahannock River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>RPPTF</edomv>
+            <edomvd>Upper Rappahannock River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PIAMH</edomv>
+            <edomvd>Piankatank River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MOBPH</edomv>
+            <edomvd>Mobjack Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>YRKPH</edomv>
+            <edomvd>Lower York River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>YRKMH</edomv>
+            <edomvd>Middle York River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MPNOH</edomv>
+            <edomvd>Lower Mattaponi River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MPNTF</edomv>
+            <edomvd>Upper Mattaponi River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PMKOH</edomv>
+            <edomvd>Lower Pamunkey River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PMKTF</edomv>
+            <edomvd>Upper Pamunkey River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>JMSPH</edomv>
+            <edomvd>Mouth of the James River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>JMSMH</edomv>
+            <edomvd>Lower James River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ELIPH</edomv>
+            <edomvd>Lower Elizabeth River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WBEMH</edomv>
+            <edomvd>Western Branch of the Elizabeth River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SBEMH</edomv>
+            <edomvd>South Branch of the Elizabeth River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>EBEMH</edomv>
+            <edomvd>Eastern Branch of the Elizabeth River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LAFMH</edomv>
+            <edomvd>Lafayette River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CHKOH</edomv>
+            <edomvd>Chickahominy River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>JMSOH</edomv>
+            <edomvd>Middle James River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>JMSTF1</edomv>
+            <edomvd>Upper James River Segment 1</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>JMSTF2</edomv>
+            <edomvd>Upper James River Segment 2</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>APPTF</edomv>
+            <edomvd>Appomattox River</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CB8PH</edomv>
+            <edomvd>Mouth of the Chesapeake Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LYNPH</edomv>
+            <edomvd>Lynnhaven &amp; Broad Bays</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>AAWPH</edomv>
+            <edomvd>Assawoman Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>IOWPH</edomv>
+            <edomvd>Isle of Wight Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SPXPH</edomv>
+            <edomvd>Sinepuxent Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CHNPH</edomv>
+            <edomvd>Chincoteague Bay</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SVCPH</edomv>
+            <edomvd>Southern Va. Coastal Bays</edomvd>
+            <edomvds>EPA Bay Program</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ST</attrlabl>
+        <attrdef>U.S. State which contains the SAV bed</attrdef>
+        <attrdefs>US State Abbreviations</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>DC</edomv>
+            <edomvd>Washington DC</edomvd>
+            <edomvds>State Abbreviations</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>DE</edomv>
+            <edomvd>Delaware</edomvd>
+            <edomvds>State Abbreviations</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>VA</edomv>
+            <edomvd>Virginia</edomvd>
+            <edomvds>State Abbreviations</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MD</edomv>
+            <edomvd>Maryland</edomvd>
+            <edomvds>State Abbreviations</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_len</attrlabl>
+        <attrdef>Perimeter</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Surveyed</attrlabl>
+        <attrdef>Whether the area was surveyed for SAV</attrdef>
+        <attrdefs>VIMS SAV</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Yes</edomv>
+            <edomvd>Surveyed</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>No</edomv>
+            <edomvd>Not Surveyed</edomvd>
+            <edomvds>VIMS SAV</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20111101</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Virginia Institute of Marine Science</cntorg>
+        </cntorgp>
+        <cntpos>SAV Data Administrator</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>Rt. 1208 Greate Rd.</address>
+          <city>Gloucester Point</city>
+          <state>VA</state>
+          <postal>32061</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>804/684-7088</cntvoice>
+        <cntemail>savadmin@vims.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metuc>None</metuc>
+  </metainfo>
+</metadata>
