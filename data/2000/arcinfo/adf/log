@@ -1,0 +1,4 @@
+200104031332   2   163     9savadmin UNION beds00 /savdata/final/baywide/bnd00 beds00e 0.01 JOIN
+200104031333   0     1    33savadmin copy beds00e /savdata/final/baywide/beds00
+200105161137   1    12     0dwilcox export cover /savdata/final/baywide/beds00 beds00.e00 none
+200109061233   0    12     0dwilcox export cover /savdata/final/baywide/beds00 beds00.e00 none

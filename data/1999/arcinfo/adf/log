@@ -1,0 +1,3 @@
+200012041555   3   118     0savadmin UNION beds99 /savdata/final/baywide/bnd99 beds99e 0.01 JOIN
+200012041615   0     1     0savadmin copy beds99e /savdata/final/baywide/beds99
+200012071400   1    12     0savadmin export cover /savdata/final/baywide/beds99 beds99.e00 none
