@@ -1,0 +1,3 @@
+200302031444   3   161     0savadmin UNION beds01 /savdata/final/baywide/bnd01 beds01e 0.01 JOIN
+200302031449   0     1     0savadmin  copy beds01e /savdata/final/baywide/beds01
+200302031513   0    17     0savadmin export cover /savdata/final/baywide/beds01 beds01.e00 none

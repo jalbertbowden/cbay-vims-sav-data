@@ -1,0 +1,3 @@
+200401231031  22  1161   156savadmin UNION beds02 /savdata/final/baywide/bnd02 beds02e 0.01 JOIN
+200402021453   4   109    37savadmin build beds02e poly
+200402021455   0     1    34savadmin  copy beds02e /savdata/final/baywide/beds02
